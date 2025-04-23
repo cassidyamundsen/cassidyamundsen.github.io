@@ -1,7 +1,15 @@
+title: Cassidy Amundsen
+description: Bridging Language and Technology through NLP
+url: "https://cassidyamundsen.github.io"
+baseurl: ""
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: air
+locale: en-US
+
 author:
-  name   : "Cassidy Amundsen"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Linguist | NLP Enthusiast | Data Analyst"
+  name: Cassidy Amundsen
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: Linguist | NLP Enthusiast | Data Analyst
   links:
     - label: "GitHub"
       icon: "fab fa-github"
@@ -12,21 +20,10 @@ author:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:amundsen.cassidy@gmail.com"
-title: Cassidy Amundsen
-description: >-
-  Linguist & NLP enthusiast exploring the intersection of language and technology.
-url: "https://cassidyamundsen.github.io"
-baseurl: ""
-minimal_mistakes_skin: air
-remote_theme: "mmistakes/minimal-mistakes@4.27.0"
-
-include:
-  - _pages
 
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-include-cache
