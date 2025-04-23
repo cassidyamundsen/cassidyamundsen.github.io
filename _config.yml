@@ -39,6 +39,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:amundsen.cassidy@gmail.com"
+      atom_feed:
+  hide: true
+
 
 include:
   - _pages
