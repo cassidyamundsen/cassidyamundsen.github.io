@@ -2,7 +2,7 @@ title: Cassidy Amundsen
 description: Bridging Language and Technology through NLP
 url: "https://cassidyamundsen.github.io"
 baseurl: ""
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: air
 locale: en-US
 
