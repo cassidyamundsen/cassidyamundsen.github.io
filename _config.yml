@@ -6,7 +6,7 @@ url: "https://cassidyamundsen.github.io"
 baseurl: ""
 twitter_username: cassidyamundsen
 github_username: cassidyamundsen
-minimal_mistakes_skin: plum
+minimal_mistakes_skin: air
 search: true
 
 markdown: kramdown
