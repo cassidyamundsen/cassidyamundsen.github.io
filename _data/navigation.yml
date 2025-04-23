@@ -1,9 +1,7 @@
 main:
-  - title: "About"
-    url: /about/
   - title: "Resume"
     url: /resume/
-  - title: "Hobbies"
-    url: /hobbies/
   - title: "Thesis"
     url: /thesis/
+  - title: "Hobbies"
+    url: /hobbies/
