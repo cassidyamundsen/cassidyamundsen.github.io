@@ -15,6 +15,6 @@ author_profile: false
 **B.A. English (Linguistics)** — NC State University
 
 ### Experience
-- Taught Linguistics & Data Literacy at UNC
-- Conducted sentiment analysis on dialect variation
+- Taught Linguistics & Data Literacy at UNC  
+- Conducted sentiment analysis on dialect variation  
 - 8+ years in client-facing, sales, and research roles
