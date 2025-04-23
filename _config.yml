@@ -27,3 +27,18 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-include-cache
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cassidyamundsen"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/cassidy-amundsen123/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:amundsen.cassidy@gmail.com"
+
+include:
+  - _pages
