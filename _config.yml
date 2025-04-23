@@ -4,6 +4,7 @@ url: "https://cassidyamundsen.github.io"
 baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes"
 locale: en-US
+minimal_mistakes_skin: contrast
 
 author:
   name: Cassidy Amundsen
@@ -21,16 +22,7 @@ author:
       url: "mailto:amundsen.cassidy@gmail.com"
 
 footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/cassidyamundsen"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/cassidy-amundsen123/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:amundsen.cassidy@gmail.com"
+  links: []
 
 atom_feed:
   hide: true
