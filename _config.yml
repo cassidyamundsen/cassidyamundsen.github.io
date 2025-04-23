@@ -3,7 +3,6 @@ description: Bridging Language and Technology through NLP
 url: "https://cassidyamundsen.github.io"
 baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: air
 locale: en-US
 
 author:
@@ -21,13 +20,6 @@ author:
       icon: "fas fa-envelope"
       url: "mailto:amundsen.cassidy@gmail.com"
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
-
 footer:
   links:
     - label: "GitHub"
@@ -39,9 +31,16 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:amundsen.cassidy@gmail.com"
-      atom_feed:
+
+atom_feed:
   hide: true
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
 
 include:
   - _pages
