@@ -1,20 +1,14 @@
----
-layout: splash
-title: "Cassidy Amundsen"
-subtitle: "Linguist • NLP Enthusiast • Data-Driven Thinker"
-header:
-  overlay_color: "#ffffff"
-  overlay_filter: "0.2"
-  actions:
-    - label: "About Me"
-      url: "/about/"
-    - label: "Resume"
-      url: "/resume/"
-    - label: "Hobbies"
-      url: "/hobbies/"
-excerpt: "With a background in linguistics and a love for data, I bridge the gap between people and machines."
----
-
-Welcome! I’m Cassidy — a linguist and analyst passionate about helping machines understand people better.
-
-I bring 8+ years of people-first communication and data experience across linguistics, sales, teaching, and NLP research.
+author:
+  name   : "Cassidy Amundsen"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Linguist | NLP Enthusiast | Data Analyst"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/cassidyamundsen"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/cassidy-amundsen123/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:amundsen.cassidy@gmail.com"
