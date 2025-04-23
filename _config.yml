@@ -3,6 +3,7 @@ email: amundsen.cassidy@gmail.com
 description: >-
   Linguist & NLP enthusiast exploring the intersection of language and technology.
 url: "https://cassidyamundsen.github.io"
+baseurl: ""
 twitter_username: cassidyamundsen
 github_username: cassidyamundsen
 minimal_mistakes_skin: plum
@@ -79,4 +80,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
 
