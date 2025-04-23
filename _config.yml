@@ -12,3 +12,21 @@ author:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:amundsen.cassidy@gmail.com"
+title: Cassidy Amundsen
+description: >-
+  Linguist & NLP enthusiast exploring the intersection of language and technology.
+url: "https://cassidyamundsen.github.io"
+baseurl: ""
+minimal_mistakes_skin: air
+remote_theme: "mmistakes/minimal-mistakes@4.27.0"
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
