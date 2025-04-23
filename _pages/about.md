@@ -5,4 +5,4 @@ layout: single
 author_profile: true
 ---
 
-Hi! I’m Cassidy — a linguist and NLP enthusiast who turns messy language into structured insight. I use Python, sentiment analysis, and linguistic theory to explore how people communicate — and how machines can learn to do it better.
+I’m Cassidy — a linguist and NLP enthusiast with a strong foundation in sociolinguistics, computational methods, sales, and teaching. I’ve worked across education, analytics, and client-facing roles, using data and language to drive clarity, insight, and connection.
