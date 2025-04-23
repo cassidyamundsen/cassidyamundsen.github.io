@@ -1,33 +1,18 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Cassidy Amundsen
 email: amundsen.cassidy@gmail.com
-description: >- Linguist & NLP enthusiast exploring the intersection of language and technology.
-URL: "https://cassidyamundsen.github.io"  #Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+description: >-
+  Linguist & NLP enthusiast exploring the intersection of language and technology.
+url: "https://cassidyamundsen.github.io"
 twitter_username: cassidyamundsen
 github_username: cassidyamundsen
 minimal_mistakes_skin: plum
 search: true
 
-# Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.27.0"
-# Outputting
+
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
 timezone: America/New_York
 title_separator: "|"
@@ -35,19 +20,6 @@ title_separator: "|"
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -58,7 +30,7 @@ plugins:
 
 author:
   name   : "Cassidy Amundsen"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.jpg"  # Optional image for sidebar
   bio    : "Linguist & NLP enthusiast passionate about bridging human language and machine understanding."
   links:
     - label: "GitHub"
@@ -83,9 +55,7 @@ footer:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:amundsen.cassidy@gmail.com"
 
-
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -96,7 +66,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
@@ -110,3 +79,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
