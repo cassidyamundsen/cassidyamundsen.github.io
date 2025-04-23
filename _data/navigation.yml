@@ -5,3 +5,12 @@ main:
     url: /resume/
   - title: "Hobbies"
     url: /hobbies/
+resume:
+  - title: "Skills"
+    url: /resume/#skills
+  - title: "Education"
+    url: /resume/#education
+  - title: "Experience"
+    url: /resume/#experience
+  - title: "Projects"
+    url: /resume/#projects
