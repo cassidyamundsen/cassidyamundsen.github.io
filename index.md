@@ -8,42 +8,58 @@ classes: wide
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
+  :root {
+    --accent-color: #457b9d;
+    --accent-hover: #1d3557;
+    --text-light: #f8f9fa;
+    --text-medium: #ced4da;
+    --bg-main: #202534;
+    --bg-card: #2b303c;
+  }
+
   body {
     font-family: 'Poppins', sans-serif;
-    background-color: #1a1a2e;
-    color: #f0f0f5;
+    background-color: var(--bg-main);
+    color: var(--text-light);
     margin: 0;
     padding-bottom: 80px;
   }
+
   h1, h2, h3 {
-    color: #4dd0e1;
+    color: var(--accent-color);
     font-weight: 600;
   }
+
   p {
     font-size: 1.1rem;
-    color: #dddddd;
+    color: var(--text-medium);
   }
+
   a {
-    color: #4dd0e1;
+    color: var(--accent-color);
     text-decoration: none;
   }
+
   a:hover {
+    color: var(--accent-hover);
     text-decoration: underline;
   }
+
   .intro-card {
     padding: 2rem;
     max-width: 700px;
     margin: 4rem auto;
-    background: #2c2c54;
+    background: var(--bg-card);
     border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.05);
     text-align: center;
   }
+
   .intro-button {
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: #4dd0e1;
-    color: #1a1a2e !important;
+    background-color: var(--accent-color);
+    color: var(--text-light) !important;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -52,15 +68,36 @@ classes: wide
     text-decoration: none;
     display: inline-block;
   }
+
   .intro-button:hover {
-    background-color: #26c6da;
+    background-color: var(--accent-hover);
   }
-  header.site-header {
-    background-color: #4dd0e1 !important;
+
+  .contact-toggle {
+    margin: 3rem auto;
+    text-align: center;
   }
-  footer.page__footer {
-    background-color: #4dd0e1 !important;
-    color: #1a1a2e !important;
+
+  .contact-toggle button {
+    background-color: var(--accent-color);
+    color: var(--text-light);
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .contact-toggle button:hover {
+    background-color: var(--accent-hover);
+  }
+
+  .contact-info {
+    margin-top: 1rem;
+    display: none;
+    color: var(--text-medium);
+    font-size: 1.05rem;
   }
 </style>
 
@@ -68,4 +105,13 @@ classes: wide
   <h1>Hi, I'm Cassidy 👋</h1>
   <p>I'm a linguist and data analyst passionate about how people use language — and how we can use technology and data to better understand and connect with each other.</p>
   <a class="intro-button" href="/about/">Learn More About Me</a>
+</div>
+
+<div class="contact-toggle">
+  <button onclick="document.getElementById('contact').style.display = 'block'">Show Contact Info</button>
+  <div id="contact" class="contact-info">
+    <p>Email: <a href="mailto:amundsen.cassidy@gmail.com">amundsen.cassidy@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/cassidyamundsen" target="_blank">github.com/cassidyamundsen</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/cassidyamundsen" target="_blank">linkedin.com/in/cassidyamundsen</a></p>
+  </div>
 </div>
