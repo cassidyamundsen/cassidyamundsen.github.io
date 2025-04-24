@@ -22,12 +22,12 @@ classes: wide
     font-weight: 600;
   }
 
-  .page__title {
+  .page__title, .page__title h1 {
     color: #1a1a1a !important;
     font-weight: 600;
-    font-size: 2.25rem;
-    text-align: left;
-    margin: 2rem 0 1.5rem 1rem;
+    font-size: 2.25rem !important;
+    text-align: left !important;
+    margin: 2rem 0 1.5rem 1rem !important;
   }
 
   p {
