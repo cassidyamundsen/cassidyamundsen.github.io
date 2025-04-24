@@ -111,6 +111,18 @@ classes: wide
     font-size: 1.05rem;
   }
 </style>
+<style>
+header.site-header {
+  background-color: #457b9d !important;
+  color: #ffffff !important;
+  border-bottom: none !important;
+}
+footer.page__footer {
+  background-color: #457b9d !important;
+  color: #ffffff !important;
+  border-top: none !important;
+}
+</style>
 
 <div class="intro-card">
   <h1>Hi, I'm Cassidy 👋</h1>
