@@ -11,8 +11,8 @@ classes: wide
 <style>
   body {
     font-family: 'Poppins', sans-serif;
-    background-color: #0e1117;
-    color: #f5f5f5;
+    background-color: #1a1a2e;
+    color: #f0f0f5;
     margin: 0;
     padding-bottom: 80px;
   }
@@ -22,10 +22,10 @@ classes: wide
   }
   p {
     font-size: 1.1rem;
-    color: #c9d1d9;
+    color: #dddddd;
   }
   a {
-    color: #58a6ff;
+    color: #4dd0e1;
     text-decoration: none;
   }
   a:hover {
@@ -35,16 +35,16 @@ classes: wide
     padding: 2rem;
     max-width: 700px;
     margin: 4rem auto;
-    background: #161b22;
+    background: #2c2c54;
     border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.08);
     text-align: center;
   }
   .intro-button {
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: #238636;
-    color: #ffffff !important;
+    background-color: #4dd0e1;
+    color: #1a1a2e !important;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -54,7 +54,7 @@ classes: wide
     display: inline-block;
   }
   .intro-button:hover {
-    background-color: #2ea043;
+    background-color: #26c6da;
   }
   .connect {
     text-align: center;
@@ -72,17 +72,29 @@ classes: wide
     margin-top: 0.5rem;
   }
   .social-icons a {
-    color: #58a6ff;
+    color: #ffffff;
+    background-color: #4dd0e1;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: background 0.3s ease;
+  }
+  .social-icons a:hover {
+    background-color: #26c6da;
   }
   .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #0d1117;
+    background-color: #13132a;
     text-align: center;
     padding: 1rem 0;
     font-size: 0.9rem;
-    color: #8b949e;
+    color: #9999b3;
   }
 </style>
 
