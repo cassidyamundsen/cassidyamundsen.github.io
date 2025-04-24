@@ -13,6 +13,8 @@ classes: wide
     font-family: 'Poppins', sans-serif;
     background-color: #f7f9fb;
     color: #1a1a1a;
+    margin: 0;
+    padding-bottom: 80px;
   }
 
   h1, h2, h3 {
@@ -21,7 +23,7 @@ classes: wide
   }
 
   .page__title, .page__title h1 {
-    color: #457b9d !important;
+    color: #1a1a1a !important;
     font-weight: 600;
     font-size: 2.25rem !important;
     text-align: left !important;
@@ -82,23 +84,23 @@ classes: wide
 ## Linguistics Projects
 
 <details>
-<summary>Expanding Pronominal Feature Geometry: Politeness and Honorifics in Personal Pronoun Systems</summary>
+<summary>Honorific Systems in Personal Pronouns: A Cross-Linguistic Feature Geometry Analysis</summary>
 <p><strong>Collaborators:</strong> Cassidy Amundsen, Erin Humphreys, Jamie Wee</p>
-<p>A cross-linguistic analysis of politeness-based pronoun systems in French, Mandarin, Tamil, Korean, and English. This project expands Harley & Ritter’s (2002) morphological feature geometry by introducing a new HONORIFIC node to represent social hierarchy and formality distinctions in personal pronouns.</p>
-<p><a href="/OUTLINE%20FOR%20KATYA.docx" target="_blank">View Project Outline (DOCX)</a></p>
+<p>This project expands Harley & Ritter’s morphological feature geometry by introducing a new HONORIFIC node to represent social hierarchy and formality distinctions in personal pronouns. The analysis compares politeness-based systems in French, Mandarin, Tamil, Korean, and English.</p>
+<p><a href="/honorific_pronoun_analysis_outline.pdf" target="_blank">View Project PDF</a></p>
 </details>
 
 <details>
-<summary>Phonological Patterns in Turkish: A Vowel Harmony Analysis</summary>
-<p>Analyzed native and loanword phonology in Turkish using Optimality Theory. Focused on how loanwords adapt to Turkish’s vowel harmony system and proposed updated constraint rankings to explain systematic variation in adaptation.</p>
-<p><a href="/Phonology_Turkish%20Squib.docx" target="_blank">View Full Paper (DOCX)</a></p>
+<summary>Turkish Vowel Harmony in Native and Loanwords</summary>
+<p>This analysis uses Optimality Theory to explore how Turkish vowel harmony applies to both native terms and loanwords. It proposes an updated ranking of phonological constraints to account for systematic variation in the adaptation process.</p>
+<p><a href="/turkish_vowel_harmony_analysis.pdf" target="_blank">View Full Paper (PDF)</a></p>
 </details>
 
 ## NLP Projects
 
 <details open>
 <summary>Sentiment Analysis of Twitter Data: Dialect and Emotional Trends</summary>
-<p>This project explored sentiment differences between African American English (AAE) and Standard American English (SAE) in Twitter discourse. Using VADER in Python, I collected and cleaned tweets, then applied sentiment scoring to examine how dialectal variation influenced emotion perception. The project also engaged sociolinguistic theory to interpret sentiment disparities and their implications for algorithmic fairness and linguistic bias in NLP.</p>
+<p>This project examined sentiment differences between African American English (AAE) and Standard American English (SAE) in tweets using Python and VADER. It included data cleaning, sentiment scoring, and analysis of how dialect influences emotional perception. Sociolinguistic theory was applied to interpret how variation in tone may affect fairness and bias in NLP systems.</p>
 <p><a href="/twitter_sentiment_analysis.html" target="_blank">View Full Project (HTML)</a></p>
 <iframe src="/twitter_sentiment_analysis.html"></iframe>
 </details>
