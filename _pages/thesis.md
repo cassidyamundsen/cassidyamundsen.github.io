@@ -4,7 +4,6 @@ permalink: /thesis/
 nav_order: 4
 layout: single
 classes: wide
-hide_title: true
 ---
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -23,16 +22,12 @@ hide_title: true
     font-weight: 600;
   }
 
-  .custom-page-title {
-    color: #ffffff;
-    background-color: #457b9d;
-    padding: 1rem 2rem;
-    border-radius: 12px;
+  .page__title {
+    color: #457b9d !important;
+    font-weight: 600;
+    font-size: 2.25rem;
     text-align: center;
     margin: 2rem auto;
-    max-width: 80%;
-    font-size: 2rem;
-    font-weight: 600;
   }
 
   p {
@@ -62,8 +57,6 @@ hide_title: true
     color: #4a4a4a !important;
   }
 </style>
-
-<div class="custom-page-title">Thesis</div>
 
 My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.
 
