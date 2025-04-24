@@ -26,8 +26,8 @@ classes: wide
     color: #457b9d !important;
     font-weight: 600;
     font-size: 2.25rem;
-    text-align: center;
-    margin: 2rem auto;
+    text-align: left;
+    margin: 2rem 0 1.5rem 1rem;
   }
 
   p, ul {
