@@ -1,11 +1,12 @@
 :root {
   --accent-color: #457b9d;
-  --background-color: #f7f9fb;
-  --header-bg-color: #457b9d;
-  --footer-bg-color: #457b9d;
-  --text-color: #1a1a1a;
+  --accent-hover: #1d3557;
+  --header-bg: #457b9d;
+  --footer-bg: #457b9d;
   --link-color: #457b9d;
   --link-hover-color: #1d3557;
+}
+
 }
 
 header.site-header {
