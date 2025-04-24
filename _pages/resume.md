@@ -24,14 +24,11 @@ hide_resume: true
   }
 
   .page__title {
-    color: #ffffff !important;
-    background-color: #457b9d !important;
-    padding: 1rem 2rem;
-    border-radius: 12px;
+    color: #457b9d !important;
+    font-weight: 600;
+    font-size: 2.25rem;
     text-align: center;
     margin: 2rem auto;
-    max-width: 80%;
-    font-weight: 600;
   }
 
   p, li {
