@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Cassidy Amundsen"
 excerpt: "Linguist | NLP Enthusiast | Data Analyst"
 classes: wide
 ---
@@ -15,6 +14,8 @@ classes: wide
     --text-medium: #ced4da;
     --bg-main: #202534;
     --bg-card: #2b303c;
+    --header-bg: #2c3e50;
+    --footer-bg: #1d2731;
   }
 
   body {
@@ -71,6 +72,15 @@ classes: wide
 
   .intro-button:hover {
     background-color: var(--accent-hover);
+  }
+
+  header.site-header {
+    background-color: var(--header-bg) !important;
+  }
+
+  footer.page__footer {
+    background-color: var(--footer-bg) !important;
+    color: var(--text-medium) !important;
   }
 
   .contact-toggle {
