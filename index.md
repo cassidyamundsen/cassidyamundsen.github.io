@@ -1,6 +1,6 @@
 ---
 layout: single
-excerpt: "Linguist | NLP Enthusiast | Data Analyst"
+excerpt: "Linguist | NLP Enthusiast | Data Analyst | Sales Professional"
 classes: wide
 ---
 
@@ -16,7 +16,6 @@ classes: wide
     --bg-card: #ffffff;
     --header-bg: #457b9d;
     --footer-bg: #457b9d;
-
   }
 
   body {
@@ -77,11 +76,14 @@ classes: wide
 
   header.site-header {
     background-color: var(--header-bg) !important;
+    color: #ffffff !important;
+    border-bottom: none !important;
   }
 
   footer.page__footer {
     background-color: var(--footer-bg) !important;
-    color: var(--text-medium) !important;
+    color: #ffffff !important;
+    border-top: none !important;
   }
 
   .contact-toggle {
@@ -111,22 +113,10 @@ classes: wide
     font-size: 1.05rem;
   }
 </style>
-<style>
-header.site-header {
-  background-color: #457b9d !important;
-  color: #ffffff !important;
-  border-bottom: none !important;
-}
-footer.page__footer {
-  background-color: #457b9d !important;
-  color: #ffffff !important;
-  border-top: none !important;
-}
-</style>
 
 <div class="intro-card">
   <h1>Hi, I'm Cassidy 👋</h1>
-  <p>I'm a linguist and data analyst passionate about how people use language — and how we can use technology and data to better understand and connect with each other.</p>
+  <p>I'm a linguist, data analyst, and sales professional who studies how people communicate—then turns those insights into strategies that connect, convert, and make an impact. I combine research, empathy, and analytics to bridge the gap between language and business.</p>
   <a class="intro-button" href="/about/">Learn More About Me</a>
 </div>
 
@@ -135,4 +125,6 @@ footer.page__footer {
   <div id="contact" class="contact-info">
     <p>Email: <a href="mailto:amundsen.cassidy@gmail.com">amundsen.cassidy@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/cassidyamundsen" target="_blank">github.com/cassidyamundsen</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/cassidyamundsen" target="_blank">linkedin.com_
+    <p>LinkedIn: <a href="https://linkedin.com/in/cassidyamundsen" target="_blank">linkedin.com/in/cassidyamundsen</a></p>
+  </div>
+</div>
