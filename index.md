@@ -8,20 +8,20 @@ classes: wide
 
 <style>
   :root {
-    --accent-color: #6cace4;
-    --accent-hover: #497ba1;
-    --text-light: #ffffff;
-    --text-medium: #d3dce6;
-    --bg-main: #1b1f27;
-    --bg-card: #242b38;
-    --header-bg: #2a3242;
-    --footer-bg: #1f2633;
+    --accent-color: #457b9d;
+    --accent-hover: #1d3557;
+    --text-dark: #1a1a1a;
+    --text-medium: #4a4a4a;
+    --bg-main: #f7f9fb;
+    --bg-card: #ffffff;
+    --header-bg: #e3ecf3;
+    --footer-bg: #dce6ef;
   }
 
   body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-main);
-    color: var(--text-light);
+    color: var(--text-dark);
     margin: 0;
     padding-bottom: 80px;
   }
@@ -52,7 +52,7 @@ classes: wide
     margin: 4rem auto;
     background: var(--bg-card);
     border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
 
@@ -60,7 +60,7 @@ classes: wide
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
     background-color: var(--accent-color);
-    color: var(--text-light) !important;
+    color: #ffffff !important;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -90,7 +90,7 @@ classes: wide
 
   .contact-toggle button {
     background-color: var(--accent-color);
-    color: var(--text-light);
+    color: #ffffff;
     font-size: 1rem;
     padding: 0.75rem 1.5rem;
     border: none;
