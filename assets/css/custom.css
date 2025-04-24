@@ -1,17 +1,29 @@
-/* Force site-wide header and footer colors */
-.site-header,
-.site-header a {
-  background-color: #457b9d !important;
+:root {
+  --accent-color: #457b9d;
+  --background-color: #f7f9fb;
+  --header-bg-color: #457b9d;
+  --footer-bg-color: #457b9d;
+  --text-color: #1a1a1a;
+  --link-color: #457b9d;
+  --link-hover-color: #1d3557;
+}
+
+header.site-header {
+  background-color: var(--header-bg-color) !important;
+  color: #ffffff !important;
+  border-bottom: none !important;
+}
+
+header.site-header a {
   color: #ffffff !important;
 }
 
-.page__footer,
-.page__footer a {
-  background-color: #457b9d !important;
+footer.page__footer {
+  background-color: var(--footer-bg-color) !important;
   color: #ffffff !important;
+  border-top: none !important;
 }
 
-/* Optional: match hover effects */
-a:hover {
-  color: #1d3557;
+footer.page__footer a {
+  color: #ffffff !important;
 }
