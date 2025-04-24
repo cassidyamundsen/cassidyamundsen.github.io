@@ -23,15 +23,11 @@ classes: wide
   }
 
   .page__title {
-    color: #ffffff !important;
-    background-color: #457b9d !important;
-    padding: 1rem 2rem;
-    border-radius: 12px;
+    color: #457b9d !important;
+    font-weight: 600;
+    font-size: 2.25rem;
     text-align: center;
     margin: 2rem auto;
-    max-width: 80%;
-    font-size: 2rem;
-    font-weight: 600;
   }
 
   p, ul {
@@ -56,15 +52,15 @@ classes: wide
   }
 
   header.site-header {
-    background-color: #f7f9fb !important;
-    border-bottom: 1px solid #dce6ef !important;
-    color: #1a1a1a !important;
+    background-color: #457b9d !important;
+    color: #ffffff !important;
+    border-bottom: none !important;
   }
 
   footer.page__footer {
-    background-color: #f7f9fb !important;
-    border-top: 1px solid #dce6ef !important;
-    color: #4a4a4a !important;
+    background-color: #457b9d !important;
+    color: #ffffff !important;
+    border-top: none !important;
   }
 </style>
 
