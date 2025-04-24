@@ -1,24 +1,53 @@
 ---
 title: "Hobbies"
 permalink: /hobbies/
+nav_order: 3
 layout: single
 classes: wide
-author_profile: true
 ---
 
-When I’m not working with data or studying language, I’m moving — physically and mentally.
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-## 🏋️‍♀️ Weightlifting  
-I thrive on discipline, structure, and growth — in and out of the gym.
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fb;
+    color: #1a1a1a;
+    margin: 0;
+    padding-bottom: 80px;
+  }
+  h1, h2 {
+    color: #457b9d;
+    font-weight: 600;
+  }
+  ul {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    line-height: 1.7;
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+</style>
 
-## 🥊 Boxing  
-Boxing sharpens my focus, reflexes, and resilience.
+# Hobbies
 
-## ⛳ Golf  
-A balance of patience and precision — and a great excuse to unplug.
+Outside of my professional work, I’m deeply passionate about activities that keep me grounded, inspired, and creatively sharp. My hobbies reflect a balance between movement, mindfulness, and self-expression—and they often inform how I connect with people and ideas in meaningful ways.
 
-## 📚 Reading  
-I devour books on linguistics, psychology, productivity, and sci-fi.
+## Current Interests
 
-## 🧠 Lifelong Learning  
-Whether it’s a new data tool or business idea, I’m always growing.
+- Hiking and exploring natural landscapes
+- Weight training and running for mental clarity and strength
+- Yoga as a daily grounding and mindfulness practice
+- Writing poetry and personal essays as a creative outlet
+- Professional content writing with a focus on voice, tone, and audience
+- Mixology and recipe development for social and sensory creativity
+- Attending live music and cultural events to stay inspired
+
+## Personal Growth & Creative Expression
+
+- Hosting or contributing to writing and storytelling events
+- Exploring digital design and emerging technologies
+- Participating in wellness and outdoor retreats
+- Volunteering and building community around shared interests
+
+These hobbies fuel my curiosity and creativity, helping me bring clarity, empathy, and perspective into everything I do—professionally and personally.
