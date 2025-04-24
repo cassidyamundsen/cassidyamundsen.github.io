@@ -11,88 +11,67 @@ classes: wide
 <style>
   body {
     font-family: 'Inter', sans-serif;
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: #f7f9fb;
+    color: #1a1a1a;
   }
 
   h1, h2, h3 {
-    color: #ffffff;
+    color: #457b9d;
     font-weight: 600;
   }
 
-  .page__title {
-    color: #90caf9 !important;
-    font-weight: 600;
-    font-size: 2.25rem;
-    text-align: center;
-    margin: 2rem auto;
-  }
-
-  p, li {
-    font-size: 1.05rem;
-    color: #bdbdbd;
-  }
-
-  .project-section {
-    margin-bottom: 2.5rem;
-  }
-
-  .project-section h2 {
-    border-bottom: 2px solid #2f80ed;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    color: #ffffff;
-  }
-
-  .project {
-    margin-bottom: 1rem;
-  }
-
-  .project-title {
+  summary {
     font-size: 1.15rem;
     font-weight: 600;
-    color: #90caf9;
+    color: #457b9d;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+
+  details {
+    background: #ffffff;
+    border: 1px solid #dce6ef;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   a {
-    color: #90caf9;
+    color: #457b9d;
     text-decoration: none;
   }
 
   a:hover {
-    color: #64b5f6;
+    color: #1d3557;
     text-decoration: underline;
   }
 
   header.site-header, footer.page__footer {
-    background-color: #121212 !important;
-    border: none;
-    color: #e0e0e0 !important;
+    background-color: #457b9d !important;
+    color: #ffffff !important;
+    border: none !important;
   }
 </style>
 
 ## Linguistics Projects
 
-<div class="project-section">
-  <div class="project">
-    <div class="project-title">Thesis: Authenticity in Performance</div>
-    <p>Analyzed how dialect variation in African American English and Standard American English affects perceived authenticity in spoken word poetry. Used Python tools like VADER to apply sentiment analysis to interview and performance data.</p>
-  </div>
-  <div class="project">
-    <div class="project-title">Language and Identity in Digital Spaces</div>
-    <p>Explored how users shift between dialects across social media platforms, applying sociolinguistic frameworks to understand online audience design and identity performance.</p>
-  </div>
-</div>
+<details>
+<summary>Expanding Pronominal Feature Geometry: Politeness and Honorifics in Personal Pronoun Systems</summary>
+<p><strong>Collaborators:</strong> Cassidy Amundsen, Erin Humphreys, Jamie Wee</p>
+<p>A cross-linguistic analysis of politeness-based pronoun systems in French, Mandarin, Tamil, Korean, and English. This project expands Harley & Ritter’s (2002) morphological feature geometry by introducing a new HONORIFIC node to represent social hierarchy and formality distinctions in personal pronouns.</p>
+<p><a href="/assets/files/OUTLINE%20FOR%20KATYA.pdf" target="_blank">View Project Outline (PDF)</a></p>
+</details>
 
-## Data Analytics Projects
+<details>
+<summary>Phonological Patterns in Turkish: A Vowel Harmony Analysis</summary>
+<p>Analyzed native and loanword phonology in Turkish using Optimality Theory. Focused on how loanwords adapt to Turkish’s vowel harmony system and proposed updated constraint rankings to explain systematic variation in adaptation.</p>
+<p><a href="/assets/files/Phonology_Turkish%20Squib.docx" target="_blank">View Full Paper (DOCX)</a></p>
+</details>
 
-<div class="project-section">
-  <div class="project">
-    <div class="project-title">Customer Behavior Trends with SQL & Tableau</div>
-    <p>Used SQL to query customer transaction data and Tableau to visualize purchasing patterns, identifying insights that contributed to a 10% increase in campaign targeting efficiency.</p>
-  </div>
-  <div class="project">
-    <div class="project-title">Sentiment Analysis in Python</div>
-    <p>Developed a custom Python script using VADER to evaluate tone across hundreds of customer service interactions, detecting sentiment trends to improve support strategies.</p>
-  </div>
-</div>
+## Data Analytics Project
+
+<details>
+<summary>Sentiment and Politeness in Customer Interactions</summary>
+<p>This project used Python and VADER sentiment analysis to explore emotional tone and politeness strategies in customer service communication. It involved data cleaning, pattern detection, and interpretation of sentiment shifts tied to sociolinguistic theories.</p>
+<p><a href="/assets/files/Final_project_pres_LING401.ipynb" target="_blank">View Python Project (Notebook)</a></p>
+</details>
