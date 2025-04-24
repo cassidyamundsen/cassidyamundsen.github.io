@@ -64,23 +64,15 @@ classes: wide
   }
 </style>
 
-Outside of my professional work, I’m deeply passionate about activities that keep me grounded, inspired, and creatively sharp. My hobbies reflect a balance between movement, mindfulness, and self-expression—and they often inform how I connect with people and ideas in meaningful ways.
+Outside of work, I invest in interests that support continuous learning, creativity, and resilience—traits that directly strengthen my professional skill set. These activities help me stay focused, adaptable, and engaged with the world around me.
 
-## Current Interests
+## Relevant Interests
 
-- Hiking and exploring natural landscapes  
-- Weight training and running for mental clarity and strength  
-- Yoga as a daily grounding and mindfulness practice  
-- Writing poetry and personal essays as a creative outlet  
-- Professional content writing with a focus on voice, tone, and audience  
-- Mixology and recipe development for social and sensory creativity  
-- Attending live music and cultural events to stay inspired  
+- Studying new languages to expand cross-cultural communication skills and linguistic insight  
+- Practicing yoga and boxing to maintain focus, discipline, and mental resilience  
+- Traveling to explore new perspectives and develop adaptability in unfamiliar environments  
+- Writing poetry and essays to sharpen narrative voice, tone, and audience awareness  
+- Reading nonfiction and contemporary literature to stay informed and intellectually curious  
+- Developing cocktail recipes and content as a hands-on, creative outlet with an emphasis on detail and user experience  
 
-## Personal Growth & Creative Expression
-
-- Hosting or contributing to writing and storytelling events  
-- Exploring digital design and emerging technologies  
-- Participating in wellness and outdoor retreats  
-- Volunteering and building community around shared interests  
-
-These hobbies fuel my curiosity and creativity, helping me bring clarity, empathy, and perspective into everything I do—professionally and personally.
+Together, these pursuits enhance my ability to think critically, communicate clearly, and bring creative energy into collaborative projects.
