@@ -1,16 +1,45 @@
 :root {
   --accent-color: #457b9d;
   --accent-hover: #1d3557;
+  --text-dark: #1a1a1a;
+  --text-medium: #4a4a4a;
+  --bg-main: #f7f9fb;
+  --bg-card: #ffffff;
   --header-bg: #457b9d;
   --footer-bg: #457b9d;
   --link-color: #457b9d;
   --link-hover-color: #1d3557;
 }
 
+/* Site-wide background and font */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-dark);
+  margin: 0;
+  padding-bottom: 80px;
 }
 
+/* Headers */
+h1, h2, h3 {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+/* Global link styles */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* Header bar */
 header.site-header {
-  background-color: var(--header-bg-color) !important;
+  background-color: var(--header-bg) !important;
   color: #ffffff !important;
   border-bottom: none !important;
 }
@@ -19,12 +48,31 @@ header.site-header a {
   color: #ffffff !important;
 }
 
+/* Footer bar */
 footer.page__footer {
-  background-color: var(--footer-bg-color) !important;
+  background-color: var(--footer-bg) !important;
   color: #ffffff !important;
   border-top: none !important;
 }
 
 footer.page__footer a {
   color: #ffffff !important;
+}
+
+/* Optional: style buttons and highlight elements */
+button,
+.intro-button {
+  background-color: var(--accent-color);
+  color: #ffffff !important;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover,
+.intro-button:hover {
+  background-color: var(--accent-hover);
 }
