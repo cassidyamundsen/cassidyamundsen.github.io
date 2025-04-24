@@ -5,7 +5,7 @@ description: >-
 url: "https://cassidyamundsen.github.io"
 baseurl: ""
 github_username: cassidyamundsen
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 
 markdown: kramdown
