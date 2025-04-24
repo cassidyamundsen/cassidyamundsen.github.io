@@ -2,6 +2,7 @@
 title: "Hobbies"
 permalink: /hobbies/
 layout: single
+classes: wide
 author_profile: true
 ---
 
