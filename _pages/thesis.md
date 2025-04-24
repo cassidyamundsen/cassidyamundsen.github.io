@@ -2,6 +2,8 @@
 title: "Thesis"
 permalink: /thesis/
 nav_order: 4
+layout: single
+classes: wide
 ---
 
 **Title:** *Authenticity in Performance: Sentiment Analysis of AAE and SAE in Poetry*
