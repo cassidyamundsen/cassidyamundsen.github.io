@@ -8,14 +8,14 @@ classes: wide
 
 <style>
   :root {
-    --accent-color: #457b9d;
-    --accent-hover: #1d3557;
-    --text-light: #f8f9fa;
-    --text-medium: #ced4da;
-    --bg-main: #202534;
-    --bg-card: #2b303c;
-    --header-bg: #2c3e50;
-    --footer-bg: #1d2731;
+    --accent-color: #6cace4;
+    --accent-hover: #497ba1;
+    --text-light: #ffffff;
+    --text-medium: #d3dce6;
+    --bg-main: #1b1f27;
+    --bg-card: #242b38;
+    --header-bg: #2a3242;
+    --footer-bg: #1f2633;
   }
 
   body {
@@ -52,7 +52,7 @@ classes: wide
     margin: 4rem auto;
     background: var(--bg-card);
     border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     text-align: center;
   }
 
