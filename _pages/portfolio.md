@@ -72,8 +72,6 @@ classes: wide
   }
 </style>
 
-# Portfolio
-
 ## Linguistics Projects
 
 <details>
@@ -89,10 +87,10 @@ classes: wide
 <p><a href="/Phonology_Turkish%20Squib.docx" target="_blank">View Full Paper (DOCX)</a></p>
 </details>
 
-## Data Analytics Project
+## NLP Projects
 
 <details>
-<summary>Sentiment and Politeness in Customer Interactions</summary>
-<p>This project used Python and VADER sentiment analysis to explore emotional tone and politeness strategies in customer service communication. It involved data cleaning, pattern detection, and interpretation of sentiment shifts tied to sociolinguistic theories.</p>
+<summary>Sentiment Analysis of Twitter Data: Dialect and Emotional Trends</summary>
+<p>This project explored sentiment differences between African American English (AAE) and Standard American English (SAE) in Twitter discourse. Using VADER in Python, I collected and cleaned tweets, then applied sentiment scoring to examine how dialectal variation influenced emotion perception. The project also engaged sociolinguistic theory to interpret sentiment disparities and their implications for algorithmic fairness and linguistic bias in NLP.</p>
 <p><a href="/Final_project_pres_LING401.ipynb" target="_blank">View Python Project (Notebook)</a></p>
 </details>
