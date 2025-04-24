@@ -45,7 +45,11 @@ hide_resume: true
   }
 </style>
 
-📄 [Download PDF Resume](/assets/files/Cassidy_Amundsen-Resume_2025.pdf)
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="/Cassidy_Amundsen__2025.pdf" target="_blank" style="background-color: #457b9d; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600;">
+    Download My Resume (PDF)
+  </a>
+</div>
 
 ## Education
 **M.A. in Linguistics (Computational)** – University of North Carolina at Chapel Hill, May 2024  
@@ -68,27 +72,22 @@ hide_resume: true
 ## Sales Experience
 - 8+ years of experience in customer-facing roles with sales responsibility
 - Consistently met or exceeded sales goals in fast-paced environments
-- Consistently exceeded revenue goals by tailoring recommendations and communicating product value
 - Experienced in client relationship building, upselling, and promoting customer loyalty
-- Adaptable, persuasive, and comfortable working in fast-paced, goal-oriented environments
 - Excelled in building rapport with diverse clientele and delivering consistent, high-quality service
-- Achieved sales goals through persuasive communication and personalized recommendations
-- Developed strong client relationships and promoted customer loyalty programs
 - Frequently recognized for problem-solving, adaptability, and leadership under pressure
-- Upsold products and improved guest satisfaction
 
 ## Experience
 **Teaching Assistant – Data Literacy**, UNC Chapel Hill (Aug 2023 – May 2024)  
-Supported instruction for over 150 undergraduate students in data fundamentals. Led lab sections, assisted with curriculum development, and graded assignments in R, Tableau, and Excel. Helped students interpret real-world datasets, apply analytical methods, and communicate results effectively. Served as a key point of contact for student guidance and performance feedback.
+Supported 150+ undergraduates in data fundamentals. Led labs, assisted with curriculum in R, Tableau, and Excel. Helped students interpret datasets, apply analysis, and present insights.
 
 **Teaching Assistant – Intro to Linguistics**, UNC Chapel Hill (Aug 2022 – May 2023)  
-Led weekly recitations and discussion sessions for an introductory course with 60+ students. Facilitated understanding of core concepts such as syntax, phonology, and sociolinguistics. Conducted review sessions, provided detailed feedback on assignments, and supported diverse learning styles through adaptive instructional strategies. Collaborated closely with professors to improve student engagement and course delivery.
+Led weekly recitations for 60+ students. Covered syntax, phonology, and sociolinguistics. Reviewed assignments and supported student understanding through adaptive strategies.
 
 **Legal Assistant**, Cathy Hunt, J.D. (2019–2020)  
-Managed case preparation and legal document filing, supporting attorneys with scheduling, client communications, and compliance tracking.
+Managed legal documents, client communication, and compliance scheduling for attorneys.
 
 **Academic Support Assistant**, DSS Services (2018–2020)  
-Assisted students with disabilities by coordinating academic accommodations, scheduling exams, and maintaining clear communication with faculty and support staff. with academic accommodations and maintained strong communication standards.
+Coordinated academic accommodations for students with disabilities, scheduled exams, and maintained faculty communication.
 
 ## Certifications
 - Google Data Analytics Professional Certificate (in progress)
