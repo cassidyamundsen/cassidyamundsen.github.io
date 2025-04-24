@@ -2,6 +2,8 @@
 title: "About"
 permalink: /about/
 nav_order: 1
+layout: single
+classes: wide
 ---
 
 Hi! I’m Cassidy Amundsen — a linguist and data analyst with a Master’s in Linguistics from UNC Chapel Hill and a strong background in sociolinguistics, sentiment analysis, and computational linguistics. 
