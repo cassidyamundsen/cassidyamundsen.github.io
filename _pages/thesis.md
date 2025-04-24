@@ -1,12 +1,11 @@
 ---
 title: "Thesis"
 permalink: /thesis/
-layout: single
+nav_order: 4
 ---
 
-My graduate thesis explored how dialectal variation in African American English (AAE) impacts perceptions of authenticity in spoken-word poetry. I used sentiment analysis, sociolinguistic theory, and interview data to examine how language bias intersects with cultural representation in performance.
+**Title:** *Authenticity in Performance: Sentiment Analysis of AAE and SAE in Poetry*
 
-**Research highlights:**
-- Used Python-based tools (VADER) to analyze sentiment trends.
-- Compared linguistic features between AAE and SAE.
-- Applied Audience Design and Accommodation Theory.
+My thesis examined how dialect choice influences perceptions of authenticity in spoken word poetry. I used sentiment analysis tools in Python (e.g., VADER) to evaluate linguistic patterns in interviews and poetry performances, comparing African American English (AAE) with Standard American English (SAE). 
+
+I applied theories such as Audience Design, Communication Accommodation, and Politeness Theory to explore how speakers shift between dialects to manage identity, emotion, and audience perception. This project highlighted limitations in current sentiment tools and emphasized the need for dialect-aware NLP systems.
