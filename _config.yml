@@ -8,7 +8,7 @@ baseurl: ""
 github_username: cassidyamundsen
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.0"
-minimal_mistakes_skin: air  # ✅ changed from dark
+minimal_mistakes_skin: air
 
 permalink: /:title/
 timezone: America/New_York
@@ -33,3 +33,9 @@ plugins:
 author:
   name: Cassidy Amundsen
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      css: "assets/css/custom.css"
