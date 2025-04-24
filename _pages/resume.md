@@ -45,8 +45,6 @@ hide_resume: true
   }
 </style>
 
-# Resume
-
 📄 [Download PDF Resume](/assets/files/Cassidy_Amundsen-Resume_2025.pdf)
 
 ## Education
