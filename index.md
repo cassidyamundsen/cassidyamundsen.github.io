@@ -15,26 +15,21 @@ classes: wide
     margin: 0;
     padding-bottom: 80px;
   }
-
   h1, h2, h3 {
-    color: #ffffff;
+    color: #4dd0e1;
     font-weight: 600;
   }
-
   p {
     font-size: 1.1rem;
     color: #dddddd;
   }
-
   a {
     color: #4dd0e1;
     text-decoration: none;
   }
-
   a:hover {
     text-decoration: underline;
   }
-
   .intro-card {
     padding: 2rem;
     max-width: 700px;
@@ -44,7 +39,6 @@ classes: wide
     box-shadow: 0 4px 16px rgba(255, 255, 255, 0.08);
     text-align: center;
   }
-
   .intro-button {
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
@@ -58,7 +52,6 @@ classes: wide
     text-decoration: none;
     display: inline-block;
   }
-
   .intro-button:hover {
     background-color: #26c6da;
   }
