@@ -77,10 +77,11 @@ classes: wide
 - Communication, Collaboration, Time Management
 
 ## Content Writing
-- Writes original poetry and essays for personal creative development
-- Extensive experience in editorial-style content
-- Strong grasp of tone, audience, and brand alignment
-- Created outreach materials and professional copy for academic and business audiences
+- Experienced in crafting compelling written content across academic, professional, and creative contexts  
+- Skilled in adapting tone, voice, and structure to align with diverse audiences and branding goals  
+- Strong background in editorial-style writing, including essays, reports, and polished long-form content  
+- Applies linguistic insight and audience analysis to enhance clarity, engagement, and message impact
+
 
 ## Experience
 **Customer-Facing & Sales Roles**  
