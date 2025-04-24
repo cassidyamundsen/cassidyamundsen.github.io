@@ -82,14 +82,15 @@ classes: wide
 - Strong grasp of tone, audience, and brand alignment
 - Created outreach materials and professional copy for academic and business audiences
 
-## Sales Experience
-- 8+ years of experience in customer-facing roles with sales responsibility
-- Consistently met or exceeded sales goals in fast-paced environments
-- Experienced in client relationship building, upselling, and promoting customer loyalty
-- Excelled in building rapport with diverse clientele and delivering consistent, high-quality service
-- Frequently recognized for problem-solving, adaptability, and leadership under pressure
-
 ## Experience
+**Customer-Facing & Sales Roles**  
+8+ years of experience in high-volume, client-facing roles across sales and service.  
+- Consistently exceeded sales goals through personalized recommendations and upselling strategies  
+- Excelled at building rapport with diverse clientele and creating exceptional guest experiences  
+- Recognized for adaptability, efficiency under pressure, and natural leadership  
+- Mentored and trained team members, reinforcing service standards and client engagement  
+- Developed loyalty and repeat business through attentive and empathetic communication
+
 **Teaching Assistant – Data Literacy**, UNC Chapel Hill (Aug 2023 – May 2024)  
 Supported 150+ undergraduates in data fundamentals. Led labs, assisted with curriculum in R, Tableau, and Excel. Helped students interpret datasets, apply analysis, and present insights.
 
