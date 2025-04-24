@@ -68,3 +68,9 @@ hide_title: true
 My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.
 
 Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.
+
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="https://cdr.lib.unc.edu/concern/dissertations/rf55zk50d" target="_blank" style="background-color: #457b9d; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600;">
+    View Full Thesis on UNC Repository
+  </a>
+</div>
