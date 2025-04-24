@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "Cassidy Amundsen"
 excerpt: "Linguist | NLP Enthusiast | Data Analyst"
 ---
