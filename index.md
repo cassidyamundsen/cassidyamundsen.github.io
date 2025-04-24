@@ -115,7 +115,7 @@ classes: wide
 </style>
 
 <div class="intro-card">
-  <h1>Hi, I'm Cassidy 👋</h1>
+  <h1>Hi, I'm Cassidy</h1>
   <p>I'm a linguist, data analyst, and sales professional who studies how people communicate—then turns those insights into strategies that connect, convert, and make an impact. I combine research, empathy, and analytics to bridge the gap between language and business.</p>
   <a class="intro-button" href="/about/">Learn More About Me</a>
 </div>
