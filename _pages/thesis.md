@@ -23,7 +23,7 @@ classes: wide
   }
 
   .page__title {
-    color: #457b9d !important;
+    color: #1a1a1a !important;
     font-weight: 600;
     font-size: 2.25rem;
     text-align: left;
