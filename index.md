@@ -55,6 +55,13 @@ classes: wide
   .intro-button:hover {
     background-color: #26c6da;
   }
+  header.site-header {
+    background-color: #4dd0e1 !important;
+  }
+  footer.page__footer {
+    background-color: #4dd0e1 !important;
+    color: #1a1a2e !important;
+  }
 </style>
 
 <div class="intro-card">
