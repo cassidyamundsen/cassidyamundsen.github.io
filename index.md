@@ -14,8 +14,9 @@ classes: wide
     --text-medium: #4a4a4a;
     --bg-main: #f7f9fb;
     --bg-card: #ffffff;
-    --header-bg: #f7f9fb;
-    --footer-bg: #f7f9fb;
+    --header-bg: #457b9d;
+    --footer-bg: #457b9d;
+
   }
 
   body {
