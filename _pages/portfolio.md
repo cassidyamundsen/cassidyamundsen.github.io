@@ -20,6 +20,14 @@ classes: wide
     font-weight: 600;
   }
 
+  .page__title, .page__title h1 {
+    color: #457b9d !important;
+    font-weight: 600;
+    font-size: 2.25rem !important;
+    text-align: left !important;
+    margin: 2rem 0 1.5rem 1rem !important;
+  }
+
   summary {
     font-size: 1.15rem;
     font-weight: 600;
@@ -36,6 +44,11 @@ classes: wide
     margin-bottom: 1.5rem;
   }
 
+  p, li {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+  }
+
   a {
     color: #457b9d;
     text-decoration: none;
@@ -46,12 +59,20 @@ classes: wide
     text-decoration: underline;
   }
 
-  header.site-header, footer.page__footer {
+  header.site-header,
+  footer.page__footer {
     background-color: #457b9d !important;
     color: #ffffff !important;
     border: none !important;
   }
+
+  header.site-header a,
+  footer.page__footer a {
+    color: #ffffff !important;
+  }
 </style>
+
+# Portfolio
 
 ## Linguistics Projects
 
