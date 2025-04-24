@@ -14,8 +14,8 @@ classes: wide
     --text-medium: #4a4a4a;
     --bg-main: #f7f9fb;
     --bg-card: #ffffff;
-    --header-bg: #e3ecf3;
-    --footer-bg: #dce6ef;
+    --header-bg: #f7f9fb;
+    --footer-bg: #f7f9fb;
   }
 
   body {
@@ -122,6 +122,4 @@ classes: wide
   <div id="contact" class="contact-info">
     <p>Email: <a href="mailto:amundsen.cassidy@gmail.com">amundsen.cassidy@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/cassidyamundsen" target="_blank">github.com/cassidyamundsen</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/cassidyamundsen" target="_blank">linkedin.com/in/cassidyamundsen</a></p>
-  </div>
-</div>
+    <p>LinkedIn: <a href="https://linkedin.com/in/cassidyamundsen" target="_blank">linkedin.com_
