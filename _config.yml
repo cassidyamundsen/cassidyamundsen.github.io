@@ -1,38 +1,38 @@
 title: Cassidy Amundsen
-description: Bridging Language and Technology through NLP
+email: amundsen.cassidy@gmail.com
+description: >-
+  Linguist & NLP enthusiast exploring the intersection of language and technology.
 url: "https://cassidyamundsen.github.io"
 baseurl: ""
-remote_theme: "mmistakes/minimal-mistakes"
-locale: en-US
-minimal_mistakes_skin: contrast
+github_username: cassidyamundsen
+minimal_mistakes_skin: default
+search: true
+
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.27.0"
+
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/New_York
+title_separator: "|"
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 author:
-  name: Cassidy Amundsen
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: Linguist | NLP Enthusiast | Data Analyst
+  name   : "Cassidy Amundsen"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Linguist + data analyst exploring how people communicate through language and tech."
   links:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/cassidyamundsen"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/cassidy-amundsen123/"
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:amundsen.cassidy@gmail.com"
-
-footer:
-  links: []
-
-atom_feed:
-  hide: true
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
-
-include:
-  - _pages
+    - label:
