@@ -7,3 +7,6 @@ main:
 
   - title: "Hobbies"
     url: /hobbies/
+
+  - title: "Portfolio"
+    url: /portfolio/
