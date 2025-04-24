@@ -6,39 +6,70 @@ layout: single
 classes: wide
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
 <style>
   body {
     font-family: 'Inter', sans-serif;
     background-color: #121212;
     color: #e0e0e0;
   }
+
   h1, h2, h3 {
     color: #ffffff;
     font-weight: 600;
   }
+
+  .page__title {
+    color: #90caf9 !important;
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+    margin: 2rem auto;
+  }
+
   p, li {
     font-size: 1.05rem;
     color: #bdbdbd;
   }
+
   .project-section {
     margin-bottom: 2.5rem;
   }
+
   .project-section h2 {
     border-bottom: 2px solid #2f80ed;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+    color: #ffffff;
   }
+
   .project {
     margin-bottom: 1rem;
   }
+
   .project-title {
     font-size: 1.15rem;
     font-weight: 600;
     color: #90caf9;
   }
-</style>
 
-# Portfolio
+  a {
+    color: #90caf9;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #64b5f6;
+    text-decoration: underline;
+  }
+
+  header.site-header, footer.page__footer {
+    background-color: #121212 !important;
+    border: none;
+    color: #e0e0e0 !important;
+  }
+</style>
 
 ## Linguistics Projects
 
