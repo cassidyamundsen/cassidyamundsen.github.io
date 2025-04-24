@@ -1,26 +1,24 @@
 title: Cassidy Amundsen
 email: amundsen.cassidy@gmail.com
 description: >-
-  Linguist & data analyst exploring the intersection of language and technology.
+  Linguist & NLP enthusiast exploring the intersection of language, data, and technology.
 
 url: "https://cassidyamundsen.github.io"
 baseurl: ""
 github_username: cassidyamundsen
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.0"
-include:
-  - _pages
+minimal_mistakes_skin: dark
 
-permalink: /:categories/:title/
+permalink: /:title/
 timezone: America/New_York
 
-# Remove posts entirely
-collections: {}
-
-# Turn on page support
 include:
   - _pages
 
+collections: {}
+
+# Plugins
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
@@ -28,3 +26,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+# Author (optional)
+author:
+  name: Cassidy Amundsen
