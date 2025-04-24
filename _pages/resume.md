@@ -4,7 +4,6 @@ permalink: /resume/
 nav_order: 2
 layout: single
 classes: wide
-hide_resume: true
 ---
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -47,15 +46,15 @@ hide_resume: true
   }
 
   header.site-header {
-    background-color: #f7f9fb !important;
-    border-bottom: 1px solid #dce6ef !important;
-    color: #1a1a1a !important;
+    background-color: #457b9d !important;
+    color: #ffffff !important;
+    border-bottom: none !important;
   }
 
   footer.page__footer {
-    background-color: #f7f9fb !important;
-    border-top: 1px solid #dce6ef !important;
-    color: #4a4a4a !important;
+    background-color: #457b9d !important;
+    color: #ffffff !important;
+    border-top: none !important;
   }
 </style>
 
