@@ -6,11 +6,11 @@ layout: single
 classes: wide
 ---
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
   body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f7f9fb;
     color: #1a1a1a;
   }
@@ -80,13 +80,13 @@ classes: wide
 <summary>Expanding Pronominal Feature Geometry: Politeness and Honorifics in Personal Pronoun Systems</summary>
 <p><strong>Collaborators:</strong> Cassidy Amundsen, Erin Humphreys, Jamie Wee</p>
 <p>A cross-linguistic analysis of politeness-based pronoun systems in French, Mandarin, Tamil, Korean, and English. This project expands Harley & Ritter’s (2002) morphological feature geometry by introducing a new HONORIFIC node to represent social hierarchy and formality distinctions in personal pronouns.</p>
-<p><a href="/assets/files/OUTLINE%20FOR%20KATYA.pdf" target="_blank">View Project Outline (PDF)</a></p>
+<p><a href="/OUTLINE%20FOR%20KATYA.docx" target="_blank">View Project Outline (DOCX)</a></p>
 </details>
 
 <details>
 <summary>Phonological Patterns in Turkish: A Vowel Harmony Analysis</summary>
 <p>Analyzed native and loanword phonology in Turkish using Optimality Theory. Focused on how loanwords adapt to Turkish’s vowel harmony system and proposed updated constraint rankings to explain systematic variation in adaptation.</p>
-<p><a href="/assets/files/Phonology_Turkish%20Squib.docx" target="_blank">View Full Paper (DOCX)</a></p>
+<p><a href="/Phonology_Turkish%20Squib.docx" target="_blank">View Full Paper (DOCX)</a></p>
 </details>
 
 ## Data Analytics Project
@@ -94,5 +94,5 @@ classes: wide
 <details>
 <summary>Sentiment and Politeness in Customer Interactions</summary>
 <p>This project used Python and VADER sentiment analysis to explore emotional tone and politeness strategies in customer service communication. It involved data cleaning, pattern detection, and interpretation of sentiment shifts tied to sociolinguistic theories.</p>
-<p><a href="/assets/files/Final_project_pres_LING401.ipynb" target="_blank">View Python Project (Notebook)</a></p>
+<p><a href="/Final_project_pres_LING401.ipynb" target="_blank">View Python Project (Notebook)</a></p>
 </details>
