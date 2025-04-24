@@ -3,7 +3,6 @@ title: "Resume"
 permalink: /resume/
 nav_order: 2
 layout: single
-classes: wide
 ---
 
 You can download my full resume [here](link-to-your-resume.pdf).
