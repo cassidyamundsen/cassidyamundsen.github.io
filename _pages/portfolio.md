@@ -70,6 +70,13 @@ classes: wide
   footer.page__footer a {
     color: #ffffff !important;
   }
+
+  iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
+    margin-top: 1rem;
+  }
 </style>
 
 ## Linguistics Projects
@@ -89,8 +96,9 @@ classes: wide
 
 ## NLP Projects
 
-<details>
+<details open>
 <summary>Sentiment Analysis of Twitter Data: Dialect and Emotional Trends</summary>
 <p>This project explored sentiment differences between African American English (AAE) and Standard American English (SAE) in Twitter discourse. Using VADER in Python, I collected and cleaned tweets, then applied sentiment scoring to examine how dialectal variation influenced emotion perception. The project also engaged sociolinguistic theory to interpret sentiment disparities and their implications for algorithmic fairness and linguistic bias in NLP.</p>
-<p><a href="/Final_project_pres_LING401.ipynb" target="_blank">View Python Project (Notebook)</a></p>
+<p><a href="/twitter_sentiment_analysis.html" target="_blank">View Full Project (HTML)</a></p>
+<iframe src="/twitter_sentiment_analysis.html"></iframe>
 </details>
