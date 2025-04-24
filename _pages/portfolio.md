@@ -72,35 +72,27 @@ classes: wide
   footer.page__footer a {
     color: #ffffff !important;
   }
-
-  iframe {
-    width: 100%;
-    height: 800px;
-    border: none;
-    margin-top: 1rem;
-  }
 </style>
 
 ## Linguistics Projects
 
 <details>
-<summary>Honorific Systems in Personal Pronouns: A Cross-Linguistic Feature Geometry Analysis</summary>
+<summary>Honorific Systems in Personal Pronouns</summary>
 <p><strong>Collaborators:</strong> Cassidy Amundsen, Erin Humphreys, Jamie Wee</p>
-<p>This project expands Harley & Ritter’s morphological feature geometry by introducing a new HONORIFIC node to represent social hierarchy and formality distinctions in personal pronouns. The analysis compares politeness-based systems in French, Mandarin, Tamil, Korean, and English.</p>
+<p>This project expands Harley & Ritter’s morphological feature geometry by introducing a new HONORIFIC node to represent social hierarchy and formality distinctions. It compares politeness-based systems in French, Mandarin, Tamil, Korean, and English.</p>
 <p><a href="/honorific_pronoun_analysis_outline.pdf" target="_blank">View Project PDF</a></p>
 </details>
 
 <details>
 <summary>Turkish Vowel Harmony in Native and Loanwords</summary>
-<p>This analysis uses Optimality Theory to explore how Turkish vowel harmony applies to both native terms and loanwords. It proposes an updated ranking of phonological constraints to account for systematic variation in the adaptation process.</p>
+<p>Analyzed how vowel harmony patterns apply in Turkish loanwords using Optimality Theory. Proposed updated constraint rankings based on phonological adaptation data.</p>
 <p><a href="/turkish_vowel_harmony_analysis.pdf" target="_blank">View Full Paper (PDF)</a></p>
 </details>
 
 ## NLP Projects
 
-<details open>
+<details>
 <summary>Sentiment Analysis of Twitter Data: Dialect and Emotional Trends</summary>
-<p>This project examined sentiment differences between African American English (AAE) and Standard American English (SAE) in tweets using Python and VADER. It included data cleaning, sentiment scoring, and analysis of how dialect influences emotional perception. Sociolinguistic theory was applied to interpret how variation in tone may affect fairness and bias in NLP systems.</p>
+<p>Used Python and VADER to explore how sentiment differs between tweets written in African American English (AAE) and Standard American English (SAE). The project applies sociolinguistic frameworks to examine algorithmic fairness in NLP models.</p>
 <p><a href="/twitter_sentiment_analysis.html" target="_blank">View Full Project (HTML)</a></p>
-<iframe src="/twitter_sentiment_analysis.html"></iframe>
 </details>
