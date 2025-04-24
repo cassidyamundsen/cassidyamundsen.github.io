@@ -30,15 +30,41 @@ classes: wide
     text-align: center;
     margin: 2rem auto;
     max-width: 80%;
+    font-size: 2rem;
     font-weight: 600;
   }
 
-  ul {
+  p, ul {
     font-size: 1.1rem;
     color: #4a4a4a;
     line-height: 1.7;
+  }
+
+  ul {
     list-style-type: disc;
     padding-left: 1.5rem;
+  }
+
+  a {
+    color: #457b9d;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #1d3557;
+    text-decoration: underline;
+  }
+
+  header.site-header {
+    background-color: #f7f9fb !important;
+    border-bottom: 1px solid #dce6ef !important;
+    color: #1a1a1a !important;
+  }
+
+  footer.page__footer {
+    background-color: #f7f9fb !important;
+    border-top: 1px solid #dce6ef !important;
+    color: #4a4a4a !important;
   }
 </style>
 
