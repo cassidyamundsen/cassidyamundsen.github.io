@@ -1,9 +1,23 @@
 ---
 title: "Resume"
 permalink: /resume/
-layout: single
+nav_order: 2
 ---
 
-[Download my resume (PDF)](/assets/files/cassidy_resume.pdf)
+You can download my full resume [here](link-to-your-resume.pdf).
 
-_You can also paste a plaintext version here or embed Google Docs using an iframe if you'd like._
+**Skills:**
+- **Programming & Analytics:** Python, SQL, R, Tableau, Excel  
+- **Linguistics:** Sentiment Analysis, Phonetics/Phonology, Syntax, Semantics  
+- **Machine Learning & NLP:** VADER, Text Analytics, Basic ML Models  
+- **Communication & Sales:** Public speaking, high-end client service, persuasive sales techniques  
+- **Research:** Qualitative & quantitative methods, survey design, academic writing
+
+**Experience Highlights:**
+- Taught Introduction to Linguistics & Data Literacy to over 150 students as a graduate TA
+- Conducted thesis research on sentiment bias in dialectal data using Python
+- 8+ years of experience in sales, mixology, and customer-facing roles
+
+**Education:**
+- M.A. Linguistics, UNC Chapel Hill  
+- B.A. English (Linguistics concentration), NC State
