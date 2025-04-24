@@ -1,11 +1,17 @@
-header.site-header {
+/* Force site-wide header and footer colors */
+.site-header,
+.site-header a {
   background-color: #457b9d !important;
   color: #ffffff !important;
-  border-bottom: none !important;
 }
 
-footer.page__footer {
+.page__footer,
+.page__footer a {
   background-color: #457b9d !important;
   color: #ffffff !important;
-  border-top: none !important;
+}
+
+/* Optional: match hover effects */
+a:hover {
+  color: #1d3557;
 }
