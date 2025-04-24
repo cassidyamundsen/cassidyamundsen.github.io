@@ -32,14 +32,20 @@ classes: wide
     color: #1d3557;
     text-decoration: underline;
   }
+  header.site-header {
+    background-color: #f7f9fb !important;
+    border-bottom: 1px solid #dce6ef !important;
+    color: #1a1a1a !important;
+  }
+  footer.page__footer {
+    background-color: #f7f9fb !important;
+    border-top: 1px solid #dce6ef !important;
+    color: #4a4a4a !important;
+  }
 </style>
 
 # Thesis
 
-## Authenticity in Performance: Sentiment Analysis of AAE and SAE in Poetry
-
 My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.
 
 Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.
-
-📄 [Click here to read the full thesis](https://cdr.lib.unc.edu/concern/dissertations/rf55zk50d)
