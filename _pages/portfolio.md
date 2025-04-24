@@ -2,6 +2,8 @@
 title: "Portfolio"
 permalink: /portfolio/
 nav_order: 5
+layout: single
+classes: wide
 ---
 
 <style>
