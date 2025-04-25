@@ -1,64 +1,65 @@
 ---
 layout: single
-excerpt: "Linguist | NLP Enthusiast | Data Analyst | Sales Professional"
 classes: wide
+excerpt: "Linguist | NLP Enthusiast | Data Analyst | Sales Pro"
 ---
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
 <style>
-  :root {
-    --accent-color: #457b9d;
-    --accent-hover: #1d3557;
-    --text-dark: #1a1a1a;
-    --text-medium: #4a4a4a;
-    --bg-main: #f7f9fb;
-    --bg-card: #ffffff;
-    --header-bg: #457b9d;
-    --footer-bg: #457b9d;
-  }
-
   body,
   .page,
   .page__wrapper,
-  .layout--single {
+  .layout--single,
+  main.page {
     margin: 0 auto !important;
     max-width: 1200px;
     padding: 0 1rem;
+    box-sizing: border-box;
   }
 
   body {
     font-family: 'Poppins', sans-serif;
-    background-color: var(--bg-main);
-    color: var(--text-dark);
+    background-color: #f7f9fb;
+    color: #1a1a1a;
     padding-bottom: 80px;
   }
 
+  footer.page__footer {
+    background-color: #457b9d !important;
+    color: #ffffff !important;
+    text-align: center;
+    border-top: none !important;
+  }
+
+  footer.page__footer .page__footer-follow,
+  footer.page__footer a[href*="feed.xml"] {
+    display: none !important;
+  }
+
   h1, h2, h3 {
-    color: var(--accent-color);
+    color: #457b9d;
     font-weight: 600;
   }
 
   p {
     font-size: 1.1rem;
-    color: var(--text-medium);
+    color: #4a4a4a;
   }
 
   a {
-    color: var(--accent-color);
+    color: #457b9d;
     text-decoration: none;
   }
 
   a:hover {
-    color: var(--accent-hover);
+    color: #1d3557;
     text-decoration: underline;
   }
 
   .intro-card {
+    background: #fff;
     padding: 2rem;
+    margin: 3rem auto;
     max-width: 700px;
-    margin: 4rem auto;
-    background: var(--bg-card);
     border-radius: 16px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -67,8 +68,8 @@ classes: wide
   .intro-button {
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: var(--accent-color);
-    color: #ffffff !important;
+    background-color: #457b9d;
+    color: #fff !important;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -79,53 +80,7 @@ classes: wide
   }
 
   .intro-button:hover {
-    background-color: var(--accent-hover);
-  }
-
-  header.site-header {
-    background-color: var(--header-bg) !important;
-    color: #ffffff !important;
-    border-bottom: none !important;
-  }
-
-  footer.page__footer {
-    background-color: var(--footer-bg) !important;
-    color: #ffffff !important;
-    border-top: none !important;
-    text-align: center;
-  }
-
-  footer.page__footer .page__footer-follow,
-  footer.page__footer .page__footer-copyright,
-  footer.page__footer .page__footer-links a[href*="feed.xml"] {
-    display: none !important;
-  }
-
-  .contact-toggle {
-    margin: 3rem auto;
-    text-align: center;
-  }
-
-  .contact-toggle button {
-    background-color: var(--accent-color);
-    color: #ffffff;
-    font-size: 1rem;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-
-  .contact-toggle button:hover {
-    background-color: var(--accent-hover);
-  }
-
-  .contact-info {
-    margin-top: 1rem;
-    display: none;
-    color: var(--text-medium);
-    font-size: 1.05rem;
+    background-color: #1d3557;
   }
 </style>
 
@@ -133,13 +88,4 @@ classes: wide
   <h1>Hi, I'm Cassidy</h1>
   <p>I'm a linguist, data analyst, and sales professional who studies how people communicate—then turns those insights into strategies that connect, convert, and make an impact. I combine research, empathy, and analytics to bridge the gap between language and business.</p>
   <a class="intro-button" href="/about/">Learn More About Me</a>
-</div>
-
-<div class="contact-toggle">
-  <button onclick="document.getElementById('contact').style.display = 'block'">Show Contact Info</button>
-  <div id="contact" class="contact-info">
-    <p>Email: <a href="mailto:amundsen.cassidy@gmail.com">amundsen.cassidy@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/cassidyamundsen" target="_blank">github.com/cassidyamundsen</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/cassidyamundsen" target="_blank">linkedin.com/in/cassidyamundsen</a></p>
-  </div>
 </div>
