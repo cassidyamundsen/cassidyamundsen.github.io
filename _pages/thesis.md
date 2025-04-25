@@ -6,47 +6,46 @@ layout: single
 ---
 
 <style>
-  body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f7f9fb;
-    color: #1a1a1a;
-    padding-bottom: 80px;
-  }
-
-  .page,
-  .page__wrapper,
-  .layout--single,
-  main.page {
+  html, body {
     margin: 0 !important;
     padding: 0 !important;
     max-width: 100% !important;
+    overflow-x: hidden;
+    background-color: #f7f9fb;
+    font-family: 'Poppins', sans-serif;
+    color: #1a1a1a;
   }
 
-  /* Fully flush left */
-  .page__content {
-    max-width: none !important;
-    width: 100% !important;
+  /* Force all containers to align left */
+  .page, .page__wrapper, .layout--single, .page__content, main.page, #main, .initial-content {
     margin: 0 !important;
-    padding-left: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box;
     text-align: left;
   }
 
   h1 {
     margin-bottom: 0.5rem;
+    padding-left: 1rem;
   }
 
   .subtitle {
     font-size: 1.3rem;
     font-weight: 400;
     color: #4a4a4a;
-    margin-bottom: 2rem;
-    margin-top: -0.5rem;
+    margin: 1rem 0;
+    padding-left: 1rem;
   }
 
   p {
     font-size: 1.1rem;
     color: #4a4a4a;
     line-height: 1.7;
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   a {
@@ -61,6 +60,7 @@ layout: single
 
   .thesis-link {
     margin: 2rem 0;
+    padding-left: 1rem;
   }
 
   .thesis-link a {
@@ -91,16 +91,14 @@ layout: single
   }
 </style>
 
-<div class="page__content">
-  <div class="subtitle">Dialectal Influence on Authenticity and Sentiment in Spoken Word Poetry</div>
+<div class="subtitle">Dialectal Influence on Authenticity and Sentiment in Spoken Word Poetry</div>
 
-  <p>My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.</p>
+<p>My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.</p>
 
-  <p>Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.</p>
+<p>Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.</p>
 
-  <div class="thesis-link">
-    <a href="https://cdr.lib.unc.edu/concern/dissertations/rf55zk50d" target="_blank">
-      View Full Thesis on UNC Repository
-    </a>
-  </div>
+<div class="thesis-link">
+  <a href="https://cdr.lib.unc.edu/concern/dissertations/rf55zk50d" target="_blank">
+    View Full Thesis on UNC Repository
+  </a>
 </div>
