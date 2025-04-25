@@ -14,11 +14,12 @@ layout: single
     background-color: #f7f9fb;
     font-family: 'Poppins', sans-serif;
     color: #1a1a1a;
+    padding-bottom: 80px;
   }
 
   .page, .page__wrapper, .layout--single, .page__content, main.page, #main, .initial-content {
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0 2rem !important; /* Aligned with header */
     max-width: 100% !important;
     width: 100% !important;
     box-sizing: border-box;
@@ -27,7 +28,6 @@ layout: single
 
   h1 {
     margin-bottom: 0.5rem;
-    padding-left: 1rem;
   }
 
   .subtitle {
@@ -35,16 +35,12 @@ layout: single
     font-weight: 400;
     color: #4a4a4a;
     margin: 1rem 0;
-    padding-left: 1rem;
   }
 
   p {
     font-size: 1.1rem;
     color: #4a4a4a;
     line-height: 1.7;
-    margin-left: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   a {
