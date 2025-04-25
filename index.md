@@ -1,23 +1,23 @@
 ---
 layout: single
-title: Home
+title: ""
 permalink: /
 excerpt: "Linguist | NLP Enthusiast | Data Analyst | Sales Pro"
 ---
 
 <style>
-  body {
-    font-family: 'Poppins', sans-serif;
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    overflow-x: hidden;
     background-color: #f7f9fb;
+    font-family: 'Poppins', sans-serif;
     color: #1a1a1a;
     padding-bottom: 80px;
   }
 
-  .page,
-  .page__wrapper,
-  .layout--single,
-  .layout--single .page,
-  main.page {
+  .page, .page__wrapper, .layout--single, main.page, .page__content {
     margin: 0 auto !important;
     max-width: 1200px !important;
     padding: 0 1rem;
@@ -25,24 +25,6 @@ excerpt: "Linguist | NLP Enthusiast | Data Analyst | Sales Pro"
     display: block;
     float: none;
     position: relative;
-  }
-
-  .page__content {
-    max-width: 100% !important;
-    width: 100% !important;
-    margin: 0 auto !important;
-  }
-
-  footer.page__footer {
-    background-color: #457b9d !important;
-    color: #ffffff !important;
-    text-align: center;
-    border-top: none !important;
-  }
-
-  footer.page__footer .page__footer-follow,
-  footer.page__footer a[href*="feed.xml"] {
-    display: none !important;
   }
 
   h1, h2, h3 {
@@ -91,6 +73,10 @@ excerpt: "Linguist | NLP Enthusiast | Data Analyst | Sales Pro"
 
   .intro-button:hover {
     background-color: #1d3557;
+  }
+
+  footer.page__footer {
+    display: none !important;
   }
 </style>
 
