@@ -16,7 +16,6 @@ layout: single
     color: #1a1a1a;
   }
 
-  /* Force all containers to align left */
   .page, .page__wrapper, .layout--single, .page__content, main.page, #main, .initial-content {
     margin: 0 !important;
     padding: 0 !important;
@@ -60,7 +59,8 @@ layout: single
 
   .thesis-link {
     margin: 2rem 0;
-    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
   }
 
   .thesis-link a {
