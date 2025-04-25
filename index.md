@@ -1,17 +1,17 @@
 ---
 layout: single
-classes: wide
+title: Home
+permalink: /
+classes: layout--centered
 excerpt: "Linguist | NLP Enthusiast | Data Analyst | Sales Pro"
 ---
 
 <style>
-  body,
-  .page,
-  .page__wrapper,
-  .layout--single,
-  main.page {
+  .layout--centered .page,
+  .layout--centered .page__wrapper,
+  .layout--centered main.page {
     margin: 0 auto !important;
-    max-width: 1200px;
+    max-width: 1200px !important;
     padding: 0 1rem;
     box-sizing: border-box;
   }
