@@ -19,22 +19,16 @@ layout: single
 
   .page, .page__wrapper, .layout--single, .page__content, main.page, #main, .initial-content {
     margin: 0 !important;
-    padding: 0 2rem !important; /* Aligned with header */
+    padding: 0 2rem !important; /* Consistent left alignment */
     max-width: 100% !important;
     width: 100% !important;
     box-sizing: border-box;
     text-align: left;
   }
 
-  h1 {
-    margin-bottom: 0.5rem;
-  }
-
-  .subtitle {
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #4a4a4a;
-    margin: 1rem 0;
+  h1, h2, h3 {
+    color: #457b9d;
+    font-weight: 600;
   }
 
   p {
@@ -87,7 +81,7 @@ layout: single
   }
 </style>
 
-<div class="subtitle">Dialectal Influence on Authenticity and Sentiment in Spoken Word Poetry</div>
+## Dialectal Influence on Authenticity and Sentiment in Spoken Word Poetry
 
 <p>My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.</p>
 
