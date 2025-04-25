@@ -6,23 +6,24 @@ layout: single
 ---
 
 <style>
-  body {
-    font-family: 'Poppins', sans-serif;
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    overflow-x: hidden;
     background-color: #f7f9fb;
+    font-family: 'Poppins', sans-serif;
     color: #1a1a1a;
     padding-bottom: 80px;
   }
 
-  .page,
-  .page__wrapper,
-  .layout--single,
-  .layout--single .page,
-  main.page,
-  .page__content {
-    margin: 0 auto !important;
-    max-width: 1200px !important;
-    padding: 0 1rem;
+  .page, .page__wrapper, .layout--single, .page__content, main.page, #main, .initial-content {
+    margin: 0 !important;
+    padding: 0 2rem !important; /* Match header's alignment */
+    max-width: 100% !important;
+    width: 100% !important;
     box-sizing: border-box;
+    text-align: left;
   }
 
   h1, h2, h3 {
@@ -38,7 +39,7 @@ layout: single
 
   ul {
     list-style-type: disc;
-    padding-left: 1.5rem;
+    padding-left: 2rem;
   }
 
   a {
@@ -64,9 +65,7 @@ layout: single
   }
 </style>
 
-# Hobbies
-
-Outside of work, I invest in interests that support continuous learning, creativity, and resilience—traits that directly strengthen my professional skill set. These activities help me stay focused, adaptable, and engaged with the world around me.
+<p>Outside of work, I invest in interests that support continuous learning, creativity, and resilience—traits that directly strengthen my professional skill set. These activities help me stay focused, adaptable, and engaged with the world around me.</p>
 
 ## Relevant Interests
 
@@ -77,4 +76,4 @@ Outside of work, I invest in interests that support continuous learning, creativ
 - Reading nonfiction and contemporary literature to stay informed and intellectually curious  
 - Developing cocktail recipes and content as a hands-on, creative outlet with an emphasis on detail and user experience  
 
-Together, these pursuits enhance my ability to think critically, communicate clearly, and bring creative energy into collaborative projects.
+<p>Together, these pursuits enhance my ability to think critically, communicate clearly, and bring creative energy into collaborative projects.</p>
