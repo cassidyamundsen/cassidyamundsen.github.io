@@ -83,3 +83,12 @@
   <a href="/hobbies/" class="{% if page.url == '/hobbies/' %}active{% endif %}">Hobbies</a>
   <a href="/thesis/" class="{% if page.url == '/thesis/' %}active{% endif %}">Thesis</a>
 </nav>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var footer = document.querySelector("footer.page__footer");
+    if (footer) {
+      footer.remove();
+    }
+  });
+</script>
