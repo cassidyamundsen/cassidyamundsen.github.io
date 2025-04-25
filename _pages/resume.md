@@ -3,18 +3,26 @@ title: "Resume"
 permalink: /resume/
 nav_order: 2
 layout: single
-classes: wide
 ---
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
   body {
     font-family: 'Poppins', sans-serif;
     background-color: #f7f9fb;
     color: #1a1a1a;
-    margin: 0;
     padding-bottom: 80px;
+  }
+
+  .page,
+  .page__wrapper,
+  .layout--single,
+  .layout--single .page,
+  main.page,
+  .page__content {
+    margin: 0 auto !important;
+    max-width: 1200px !important;
+    padding: 0 1rem;
+    box-sizing: border-box;
   }
 
   h1, h2, h3 {
@@ -22,17 +30,10 @@ classes: wide
     font-weight: 600;
   }
 
-  .page__title, .page__title h1 {
-    color: #1a1a1a !important;
-    font-weight: 600;
-    font-size: 2.25rem !important;
-    text-align: left !important;
-    margin: 2rem 0 1.5rem 1rem !important;
-  }
-
   p, li {
     font-size: 1.1rem;
     color: #4a4a4a;
+    line-height: 1.7;
   }
 
   a {
@@ -45,45 +46,67 @@ classes: wide
     text-decoration: underline;
   }
 
-  header.site-header {
-    background-color: #457b9d !important;
-    color: #ffffff !important;
-    border-bottom: none !important;
+  .resume-download {
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .resume-download a {
+    background-color: #457b9d;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: background 0.3s ease;
+  }
+
+  .resume-download a:hover {
+    background-color: #1d3557;
   }
 
   footer.page__footer {
     background-color: #457b9d !important;
     color: #ffffff !important;
+    text-align: center;
     border-top: none !important;
+  }
+
+  footer.page__footer .page__footer-follow,
+  footer.page__footer a[href*="feed.xml"] {
+    display: none !important;
   }
 </style>
 
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="/Cassidy_Amundsen__2025.pdf" target="_blank" style="background-color: #457b9d; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600;">
+# Resume
+
+<div class="resume-download">
+  <a href="/Cassidy_Amundsen__2025.pdf" target="_blank">
     Download My Resume (PDF)
   </a>
 </div>
 
-## Education
+## Education  
 **M.A. in Linguistics (Computational)** – University of North Carolina at Chapel Hill, May 2024  
 **B.A. in English, Linguistics Concentration** – North Carolina State University, Dec 2021 (Summa Cum Laude)
 
-## Technical Skills
-- SQL, Python, R Programming
-- Data Visualization: Tableau, Excel
-- Sentiment Analysis (VADER), Text Analytics (NLP)
-- Data Cleaning, Data Modeling, Machine Learning (basic)
-- Sociolinguistic & Computational Research
+## Technical Skills  
+- SQL, Python, R Programming  
+- Data Visualization: Tableau, Excel  
+- Sentiment Analysis (VADER), Text Analytics (NLP)  
+- Data Cleaning, Data Modeling, Machine Learning (basic)  
+- Sociolinguistic & Computational Research  
 - Communication, Collaboration, Time Management
 
-## Content Writing
+## Content Writing  
 - Experienced in crafting compelling written content across academic, professional, and creative contexts  
 - Skilled in adapting tone, voice, and structure to align with diverse audiences and branding goals  
 - Strong background in editorial-style writing, including essays, reports, and polished long-form content  
 - Applies linguistic insight and audience analysis to enhance clarity, engagement, and message impact
 
+## Experience  
 
-## Experience
 **Customer-Facing & Sales Roles**  
 8+ years of experience in high-volume, client-facing roles across sales and service.  
 - Consistently exceeded sales goals through personalized recommendations and upselling strategies  
@@ -104,5 +127,5 @@ Managed legal documents, client communication, and compliance scheduling for att
 **Academic Support Assistant**, DSS Services (2018–2020)  
 Coordinated academic accommodations for students with disabilities, scheduled exams, and maintained faculty communication.
 
-## Certifications
+## Certifications  
 - Google Data Analytics Professional Certificate (in progress)
