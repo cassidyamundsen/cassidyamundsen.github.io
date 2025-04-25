@@ -19,7 +19,7 @@ layout: single
 
   .page, .page__wrapper, .layout--single, .page__content, main.page, #main, .initial-content {
     margin: 0 !important;
-    padding: 0 2rem !important; /* Consistent with header */
+    padding: 0 2rem !important; /* Matches header */
     max-width: 100% !important;
     width: 100% !important;
     box-sizing: border-box;
@@ -81,17 +81,15 @@ layout: single
   }
 </style>
 
-# Resume
+## Education  
+**M.A. in Linguistics (Computational)** – University of North Carolina at Chapel Hill, May 2024  
+**B.A. in English, Linguistics Concentration** – North Carolina State University, Dec 2021 (Summa Cum Laude)
 
 <div class="resume-download">
   <a href="/Cassidy_Amundsen__2025.pdf" target="_blank">
     Download My Resume (PDF)
   </a>
 </div>
-
-## Education  
-**M.A. in Linguistics (Computational)** – University of North Carolina at Chapel Hill, May 2024  
-**B.A. in English, Linguistics Concentration** – North Carolina State University, Dec 2021 (Summa Cum Laude)
 
 ## Technical Skills  
 - SQL, Python, R Programming  
