@@ -6,23 +6,24 @@ layout: single
 ---
 
 <style>
-  body {
-    font-family: 'Poppins', sans-serif;
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    overflow-x: hidden;
     background-color: #f7f9fb;
+    font-family: 'Poppins', sans-serif;
     color: #1a1a1a;
     padding-bottom: 80px;
   }
 
-  .page,
-  .page__wrapper,
-  .layout--single,
-  .layout--single .page,
-  main.page,
-  .page__content {
-    margin: 0 auto !important;
-    max-width: 1200px !important;
-    padding: 0 1rem;
+  .page, .page__wrapper, .layout--single, .page__content, main.page, #main, .initial-content {
+    margin: 0 !important;
+    padding: 0 2rem !important;
+    max-width: 100% !important;
+    width: 100% !important;
     box-sizing: border-box;
+    text-align: left;
   }
 
   h1, h2, h3 {
@@ -74,8 +75,6 @@ layout: single
     display: none !important;
   }
 </style>
-
-# Portfolio
 
 ## Linguistics Projects
 
