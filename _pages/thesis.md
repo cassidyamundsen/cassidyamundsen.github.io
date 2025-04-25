@@ -16,15 +16,20 @@ layout: single
   .page,
   .page__wrapper,
   .layout--single,
-  .layout--single .page,
-  main.page,
-  .page__content {
+  main.page {
     margin: 0 auto !important;
-    max-width: 800px !important;
+    max-width: 1200px !important;
     padding: 0 1rem;
     box-sizing: border-box;
-    float: none !important;
+    display: block;
+    float: none;
     position: relative;
+  }
+
+  .page__content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
   }
 
   h1, h2, h3 {
@@ -81,14 +86,16 @@ layout: single
   }
 </style>
 
-## Dialectal Influence on Authenticity and Sentiment in Spoken Word Poetry
+<div class="page__content">
+  <h1>Dialectal Influence on Authenticity and Sentiment in Spoken Word Poetry</h1>
 
-My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.
+  <p>My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.</p>
 
-Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.
+  <p>Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.</p>
 
-<div class="thesis-link">
-  <a href="https://cdr.lib.unc.edu/concern/dissertations/rf55zk50d" target="_blank">
-    View Full Thesis on UNC Repository
-  </a>
+  <div class="thesis-link">
+    <a href="https://cdr.lib.unc.edu/concern/dissertations/rf55zk50d" target="_blank">
+      View Full Thesis on UNC Repository
+    </a>
+  </div>
 </div>
