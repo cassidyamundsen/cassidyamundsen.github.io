@@ -76,3 +76,42 @@ button:hover,
   background-color: var(--accent-hover);
 }
 
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  body, .page, .page__wrapper {
+    padding: 0 1rem !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    overflow-x: hidden;
+  }
+
+  nav.custom-nav {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    margin: 1rem auto !important;
+  }
+
+  nav.custom-nav a {
+    font-size: 0.9rem !important;
+    padding: 0.5rem 1rem !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+    font-size: 1.4rem !important;
+  }
+
+  img, video, iframe {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 auto !important;
+  }
+}
