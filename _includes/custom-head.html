@@ -1,28 +1,55 @@
 <style>
-  /* Reset default margins and paddings */
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  /* Ensure consistent layout width and center alignment */
+  html, body {
+    overflow-x: hidden;
+  }
+
   body, .page__wrapper, .page {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
   }
 
-  /* Prevent horizontal overflow */
-  html, body {
-    overflow-x: hidden;
+  nav.custom-nav {
+    margin: 2rem 0 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
 
-  /* Footer styling */
+  nav.custom-nav a {
+    color: #457b9d;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    transition: all 0.3s ease;
+  }
+
+  nav.custom-nav a:hover {
+    background-color: #e3ecf3;
+    color: #1d3557;
+  }
+
+  nav.custom-nav a.active {
+    background-color: #1d3557;
+    color: #ffffff !important;
+    font-weight: 600;
+    margin-left: -0.4rem;
+  }
+
   footer.page__footer {
     background-color: #f2f2f2 !important;
     color: #4a4a4a !important;
     border-top: 1px solid #dce6ef !important;
+    text-align: center;
+    padding: 1rem 0;
   }
 
   footer.page__footer a {
@@ -33,3 +60,12 @@
     color: #1d3557 !important;
   }
 </style>
+
+<nav class="custom-nav">
+  <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+  <a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
+  <a href="/resume/" class="{% if page.url == '/resume/' %}active{% endif %}">Resume</a>
+  <a href="/portfolio/" class="{% if page.url == '/portfolio/' %}active{% endif %}">Portfolio</a>
+  <a href="/hobbies/" class="{% if page.url == '/hobbies/' %}active{% endif %}">Hobbies</a>
+  <a href="/thesis/" class="{% if page.url == '/thesis/' %}active{% endif %}">Thesis</a>
+</nav>
