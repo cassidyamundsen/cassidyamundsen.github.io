@@ -48,19 +48,9 @@ header.site-header a {
   color: #ffffff !important;
 }
 
-/* Footer bar */
+/* Footer bar – COMPLETELY HIDDEN */
 footer.page__footer {
-  background-color: #f2f2f2 !important;
-  color: #4a4a4a !important;
-  border-top: 1px solid #dce6ef !important;
-}
-
-footer.page__footer a {
-  color: var(--link-color) !important;
-}
-
-footer.page__footer a:hover {
-  color: var(--link-hover-color) !important;
+  display: none !important;
 }
 
 /* Optional: style buttons and highlight elements */
