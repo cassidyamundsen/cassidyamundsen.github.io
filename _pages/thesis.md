@@ -22,12 +22,12 @@ layout: single
     max-width: 100% !important;
   }
 
-  /* Full override to force content to the edge */
+  /* Fully flush left */
   .page__content {
     max-width: none !important;
     width: 100% !important;
     margin: 0 !important;
-    padding-left: 2rem !important;
+    padding-left: 0 !important;
     text-align: left;
   }
 
