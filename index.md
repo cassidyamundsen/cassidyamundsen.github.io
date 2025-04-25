@@ -18,11 +18,19 @@ classes: wide
     --footer-bg: #457b9d;
   }
 
+  body,
+  .page,
+  .page__wrapper,
+  .layout--single {
+    margin: 0 auto !important;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+
   body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-main);
     color: var(--text-dark);
-    margin: 0;
     padding-bottom: 80px;
   }
 
@@ -84,6 +92,13 @@ classes: wide
     background-color: var(--footer-bg) !important;
     color: #ffffff !important;
     border-top: none !important;
+    text-align: center;
+  }
+
+  footer.page__footer .page__footer-follow,
+  footer.page__footer .page__footer-copyright,
+  footer.page__footer .page__footer-links a[href*="feed.xml"] {
+    display: none !important;
   }
 
   .contact-toggle {
