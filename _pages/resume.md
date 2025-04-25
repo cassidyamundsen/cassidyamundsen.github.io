@@ -6,34 +6,38 @@ layout: single
 ---
 
 <style>
-  body {
-    font-family: 'Poppins', sans-serif;
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    overflow-x: hidden;
     background-color: #f7f9fb;
+    font-family: 'Poppins', sans-serif;
     color: #1a1a1a;
-    padding-bottom: 80px;
   }
 
-  .page,
-  .page__wrapper,
-  .layout--single,
-  .layout--single .page,
-  main.page,
-  .page__content {
-    margin: 0 auto !important;
-    max-width: 1200px !important;
-    padding: 0 1rem;
+  .page, .page__wrapper, .layout--single, .page__content, main.page, #main, .initial-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
     box-sizing: border-box;
+    text-align: left;
   }
 
   h1, h2, h3 {
     color: #457b9d;
     font-weight: 600;
+    padding-left: 1rem;
   }
 
   p, li {
     font-size: 1.1rem;
     color: #4a4a4a;
     line-height: 1.7;
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   a {
@@ -47,8 +51,9 @@ layout: single
   }
 
   .resume-download {
-    text-align: center;
     margin: 2rem 0;
+    display: flex;
+    justify-content: center;
   }
 
   .resume-download a {
