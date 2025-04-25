@@ -3,31 +3,31 @@ title: "Hobbies"
 permalink: /hobbies/
 nav_order: 3
 layout: single
-classes: wide
 ---
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
   body {
     font-family: 'Poppins', sans-serif;
     background-color: #f7f9fb;
     color: #1a1a1a;
-    margin: 0;
     padding-bottom: 80px;
+  }
+
+  .page,
+  .page__wrapper,
+  .layout--single,
+  .layout--single .page,
+  main.page,
+  .page__content {
+    margin: 0 auto !important;
+    max-width: 1200px !important;
+    padding: 0 1rem;
+    box-sizing: border-box;
   }
 
   h1, h2, h3 {
     color: #457b9d;
     font-weight: 600;
-  }
-
-  .page__title, .page__title h1 {
-    color: #1a1a1a !important;
-    font-weight: 600;
-    font-size: 2.25rem !important;
-    text-align: left !important;
-    margin: 2rem 0 1.5rem 1rem !important;
   }
 
   p, ul {
@@ -51,18 +51,20 @@ classes: wide
     text-decoration: underline;
   }
 
-  header.site-header {
-    background-color: #457b9d !important;
-    color: #ffffff !important;
-    border-bottom: none !important;
-  }
-
   footer.page__footer {
     background-color: #457b9d !important;
     color: #ffffff !important;
+    text-align: center;
     border-top: none !important;
   }
+
+  footer.page__footer .page__footer-follow,
+  footer.page__footer a[href*="feed.xml"] {
+    display: none !important;
+  }
 </style>
+
+# Hobbies
 
 Outside of work, I invest in interests that support continuous learning, creativity, and resilience—traits that directly strengthen my professional skill set. These activities help me stay focused, adaptable, and engaged with the world around me.
 
