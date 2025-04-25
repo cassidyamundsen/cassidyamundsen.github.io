@@ -88,6 +88,21 @@ layout: single
   footer.page__footer a[href*="feed.xml"] {
     display: none !important;
   }
+
+  /* Active Thesis tab styling */
+  nav a[href="/thesis/"] {
+    background-color: #457b9d;
+    color: white !important;
+    padding: 0.4em 1em;
+    border-radius: 20px;
+    margin-left: -10px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+
+  nav a[href="/thesis/"]:hover {
+    background-color: #1d3557;
+  }
 </style>
 
 <div class="page__content">
