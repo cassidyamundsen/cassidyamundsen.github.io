@@ -20,12 +20,14 @@ layout: single
   main.page,
   .page__content {
     margin: 0 auto !important;
-    max-width: 1200px !important;
+    max-width: 800px !important;
     padding: 0 1rem;
     box-sizing: border-box;
+    float: none !important;
+    position: relative;
   }
 
-  h2, h3 {
+  h1, h2, h3 {
     color: #457b9d;
     font-weight: 600;
   }
@@ -79,11 +81,11 @@ layout: single
   }
 </style>
 
-<p><strong>Thesis Title:</strong> Dialectal Influence on Authenticity and Sentiment in Spoken Word Poetry</p>
+## Dialectal Influence on Authenticity and Sentiment in Spoken Word Poetry
 
-<p>My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.</p>
+My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.
 
-<p>Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.</p>
+Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.
 
 <div class="thesis-link">
   <a href="https://cdr.lib.unc.edu/concern/dissertations/rf55zk50d" target="_blank">
