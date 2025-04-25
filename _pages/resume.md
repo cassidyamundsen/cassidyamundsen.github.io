@@ -19,7 +19,7 @@ layout: single
 
   .page, .page__wrapper, .layout--single, .page__content, main.page, #main, .initial-content {
     margin: 0 !important;
-    padding: 0 2rem !important; /* Matches header */
+    padding: 0 2rem !important;
     max-width: 100% !important;
     width: 100% !important;
     box-sizing: border-box;
