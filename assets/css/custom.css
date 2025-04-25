@@ -51,6 +51,11 @@ header.site-header a {
 /* Footer bar – COMPLETELY HIDDEN */
 footer.page__footer {
   display: none !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: none !important;
 }
 
 /* Optional: style buttons and highlight elements */
@@ -70,3 +75,4 @@ button:hover,
 .intro-button:hover {
   background-color: var(--accent-hover);
 }
+
