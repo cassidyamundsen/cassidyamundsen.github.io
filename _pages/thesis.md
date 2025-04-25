@@ -17,16 +17,17 @@ layout: single
   .page__wrapper,
   .layout--single,
   main.page {
-    margin: 0 auto !important;
-    max-width: 1200px !important;
-    padding: 0 1rem;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
     box-sizing: border-box;
   }
 
   .main {
-    max-width: 700px;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
+    max-width: none;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-align: left;
   }
 
