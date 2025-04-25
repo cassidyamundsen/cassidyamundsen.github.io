@@ -1,20 +1,24 @@
 <style>
-  /* Reset margin/padding site-wide */
-  html, body {
+  /* Reset default margins and paddings */
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  /* Set consistent width and center alignment */
-  .page, .page__wrapper, .layout--single, main, body {
-    margin: 0 auto !important;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: 1100px;
+  /* Ensure consistent layout width and center alignment */
+  body, .page__wrapper, .page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
   }
 
-  /* Footer appearance */
+  /* Prevent horizontal overflow */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* Footer styling */
   footer.page__footer {
     background-color: #f2f2f2 !important;
     color: #4a4a4a !important;
@@ -27,14 +31,5 @@
 
   footer.page__footer a:hover {
     color: #1d3557 !important;
-  }
-
-  /* Optional: Remove extra horizontal scrolling */
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    overflow-x: hidden;
   }
 </style>
