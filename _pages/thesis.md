@@ -21,15 +21,12 @@ layout: single
     max-width: 1200px !important;
     padding: 0 1rem;
     box-sizing: border-box;
-    display: block;
-    float: none;
-    position: relative;
   }
 
   .page__content {
-    max-width: 100% !important;
-    width: 100% !important;
-    margin: 0 auto !important;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
   }
 
   h1, h2, h3 {
