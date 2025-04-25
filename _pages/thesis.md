@@ -3,36 +3,37 @@ title: "Thesis"
 permalink: /thesis/
 nav_order: 4
 layout: single
-classes: wide
 ---
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
   body {
     font-family: 'Poppins', sans-serif;
     background-color: #f7f9fb;
     color: #1a1a1a;
-    margin: 0;
     padding-bottom: 80px;
   }
 
-  h1, h2, h3 {
-    color: #457b9d;
-    font-weight: 600;
+  .page,
+  .page__wrapper,
+  .layout--single,
+  .layout--single .page,
+  main.page,
+  .page__content {
+    margin: 0 auto !important;
+    max-width: 1200px !important;
+    padding: 0 1rem;
+    box-sizing: border-box;
   }
 
-  .page__title, .page__title h1 {
-    color: #1a1a1a !important;
+  h2, h3 {
+    color: #457b9d;
     font-weight: 600;
-    font-size: 2.25rem !important;
-    text-align: left !important;
-    margin: 2rem 0 1.5rem 1rem !important;
   }
 
   p {
     font-size: 1.1rem;
     color: #4a4a4a;
+    line-height: 1.7;
   }
 
   a {
@@ -45,25 +46,47 @@ classes: wide
     text-decoration: underline;
   }
 
-  header.site-header {
-    background-color: #457b9d !important;
-    color: #ffffff !important;
-    border-bottom: none !important;
+  .thesis-link {
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .thesis-link a {
+    background-color: #457b9d;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    display: inline-block;
+  }
+
+  .thesis-link a:hover {
+    background-color: #1d3557;
   }
 
   footer.page__footer {
     background-color: #457b9d !important;
     color: #ffffff !important;
+    text-align: center;
     border-top: none !important;
+  }
+
+  footer.page__footer .page__footer-follow,
+  footer.page__footer a[href*="feed.xml"] {
+    display: none !important;
   }
 </style>
 
-My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.
+<p><strong>Thesis Title:</strong> Dialectal Influence on Authenticity and Sentiment in Spoken Word Poetry</p>
 
-Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.
+<p>My thesis explores how dialects — particularly African American English (AAE) and Standard American English (SAE) — affect perceptions of authenticity and emotion in spoken word poetry.</p>
 
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="https://cdr.lib.unc.edu/concern/dissertations/rf55zk50d" target="_blank" style="background-color: #457b9d; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600;">
+<p>Using Python-based tools like VADER for sentiment analysis, I analyzed how computational systems interpret dialectal features and how these interpretations align (or don't) with real-world performances. My work draws on Audience Design, Politeness Theory, and Communication Accommodation Theory to explore how speakers shape identity through dialect choice.</p>
+
+<div class="thesis-link">
+  <a href="https://cdr.lib.unc.edu/concern/dissertations/rf55zk50d" target="_blank">
     View Full Thesis on UNC Repository
   </a>
 </div>
