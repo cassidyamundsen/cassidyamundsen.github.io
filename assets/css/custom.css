@@ -1,117 +1,49 @@
-:root {
-  --accent-color: #457b9d;
-  --accent-hover: #1d3557;
-  --text-dark: #1a1a1a;
-  --text-medium: #4a4a4a;
-  --bg-main: #f7f9fb;
-  --bg-card: #ffffff;
-  --header-bg: #457b9d;
-  --footer-bg: #f2f2f2;
-  --link-color: #457b9d;
-  --link-hover-color: #1d3557;
-}
-
-/* Site-wide background and font */
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: var(--bg-main);
-  color: var(--text-dark);
-  margin: 0;
-  padding-bottom: 80px;
-}
-
-/* Headers */
-h1, h2, h3 {
-  color: var(--accent-color);
-  font-weight: 600;
-}
-
-/* Global link styles */
-a {
-  color: var(--link-color);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-}
-
-/* Header bar */
-header.site-header {
-  background-color: var(--header-bg) !important;
-  color: #ffffff !important;
-  border-bottom: none !important;
-}
-
-header.site-header a {
-  color: #ffffff !important;
-}
-
-/* Footer bar – COMPLETELY HIDDEN */
-footer.page__footer {
-  display: none !important;
-  height: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  border: none !important;
-  background: none !important;
-}
-
-/* Optional: style buttons and highlight elements */
-button,
-.intro-button {
-  background-color: var(--accent-color);
-  color: #ffffff !important;
-  border: none;
-  border-radius: 8px;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-button:hover,
-.intro-button:hover {
-  background-color: var(--accent-hover);
-}
-
-/* Mobile Optimization */
+/* Mobile-friendly adjustments */
 @media (max-width: 768px) {
-  body, .page, .page__wrapper {
-    padding: 0 1rem !important;
-    margin: 0 auto !important;
-    width: 100% !important;
+  body, html, .page, .page__wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.5rem;
+    margin: 0 auto;
     overflow-x: hidden;
   }
 
   nav.custom-nav {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 0.5rem !important;
-    margin: 1rem auto !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   nav.custom-nav a {
-    font-size: 0.9rem !important;
-    padding: 0.5rem 1rem !important;
+    display: block;
     width: 100%;
+    padding: 0.5rem;
     text-align: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  img, iframe, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
 
   h1, h2, h3 {
     text-align: center;
-    font-size: 1.4rem !important;
+    font-size: 1.5rem;
+    margin: 1rem 0;
   }
 
-  img, video, iframe {
-    max-width: 100% !important;
-    height: auto !important;
+  p, ul, ol {
+    padding: 0 0.5rem;
   }
 
   .content {
     width: 100%;
-    padding: 0 !important;
-    margin: 0 auto !important;
+    box-sizing: border-box;
+    padding: 0 0.5rem;
   }
 }
