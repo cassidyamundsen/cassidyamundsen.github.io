@@ -2,25 +2,35 @@
 layout: single
 title: Home
 permalink: /
-classes: layout--centered
 excerpt: "Linguist | NLP Enthusiast | Data Analyst | Sales Pro"
 ---
 
 <style>
-  .layout--centered .page,
-  .layout--centered .page__wrapper,
-  .layout--centered main.page {
-    margin: 0 auto !important;
-    max-width: 1200px !important;
-    padding: 0 1rem;
-    box-sizing: border-box;
-  }
-
   body {
     font-family: 'Poppins', sans-serif;
     background-color: #f7f9fb;
     color: #1a1a1a;
     padding-bottom: 80px;
+  }
+
+  .page,
+  .page__wrapper,
+  .layout--single,
+  .layout--single .page,
+  main.page {
+    margin: 0 auto !important;
+    max-width: 1200px !important;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    position: relative;
+  }
+
+  .page__content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
   }
 
   footer.page__footer {
